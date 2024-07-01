@@ -1,6 +1,6 @@
 import React from "react"
 import PropTypes from "prop-types"
-import "./FishCard.css" // Import CSS for styling
+import "../FishCard.css" // Import CSS for styling
 
 const FishCard = ({ fish }) => {
   const {

@@ -1,5 +1,5 @@
 import React, { useState } from "react"
-import "./style.css"
+import "../style.css"
 import FishList from "./FishList.js"
 import TankForm from "./TankForm.js"
 import MyAquarium from "./MyAquarium.js"

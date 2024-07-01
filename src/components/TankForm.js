@@ -1,5 +1,5 @@
 import React, { useState } from "react"
-import "./style.css"
+import "../style.css"
 
 function TankForm({ onTankSpecsChange }) {
   const [gallons, setGallons] = useState(0)
