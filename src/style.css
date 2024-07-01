@@ -1,0 +1,18 @@
+.App {
+  text-align: center;
+  margin: 20px;
+}
+
+/* Aquarium.css */
+.Aquarium {
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+.aquarium-image {
+  /* background-image: url("path/to/your/aquarium/image.jpg"); */
+  background-size: cover;
+  height: 400px;
+  width: 100%;
+}
