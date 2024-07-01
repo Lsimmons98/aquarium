@@ -12,21 +12,19 @@ const FishCard = ({ fish }) => {
     notes,
   } = fish
   return (
-    <div className="fish-card">
-      <img src={image} alt={fish_name} className="fish-image" />
-      <h2>{fish_name}</h2>
-      <p>
-        <strong>Minimum Tank Size:</strong> {tank_size_gallons} gallons
-      </p>
-      <p>
-        <strong>Water Type:</strong> {water_type}
-      </p>
-      <p>
-        <strong>Temperament:</strong> {aggressiveness}
-      </p>
-      <p>
-        <strong>Care Requirements:</strong> {notes}
-      </p>
+    <div className="fishTile">
+      <div id={fish_name} className="ui eight wide column">
+        <h3>{fish_name}</h3>
+        <div>
+          <img className="fishImg" src={image} />
+          <p>Minimum Tank Size: {tank_size_gallons} gallons</p>
+          <p>Water Type: {water_type}</p>
+          <p>Temperament: {aggressiveness}</p>
+          <p>Care Requirements: {notes}</p>
+        </div>
+      </div>
     </div>
   )
 }
+
+export default FishCard

@@ -1,18 +1,154 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #7d9cea;
+  font-family: sans-serif;
+}
+
 .App {
+  margin: 0% 5% 0% 5%;
   text-align: center;
-  margin: 20px;
 }
 
-/* Aquarium.css */
-.Aquarium {
-  margin-top: 20px;
-  padding: 20px;
-  border: 1px solid #ccc;
+.navWrapper {
+  margin-bottom: 2%;
 }
 
-.aquarium-image {
-  /* background-image: url("path/to/your/aquarium/image.jpg"); */
+.filterWrapper {
+  margin: 2% 0% 2% 0%;
+}
+
+.headerText {
+  color: #6967ed;
+  font-size: 3em;
+  margin: 0% 2% 0% 2%;
+}
+
+.largeHeader {
+  font-size: 3.5em;
+  font-weight: bold;
+  color: #3b0b0b;
+}
+
+.smallHeader {
+  font-size: 1.75em;
+  font-weight: bold;
+  color: #3b0b0b;
+}
+
+.normalText {
+  font-family: Georgia, serif;
+  font-size: 0.75em;
+}
+
+.fishText {
+  font-size: 1.5em;
+}
+
+.achievementText {
+  color: purple;
+}
+
+ul {
+  list-style-type: none;
+  list-style: none;
+}
+
+.normalText ul {
+  font-family: Georgia, serif;
+  font-size: 0.75em;
+  text-align: left;
+}
+
+.subtleText {
+  color: #d1d1d1;
+  font-size: 0.75em;
+}
+
+.indexWrapper {
+  margin: auto;
+}
+
+.fishTile {
+  display: inline;
+  background-repeat: no-repeat;
+  background-position: center 90%;
+  float: left;
+  margin: 2%;
+  padding: 1%;
+  outline: none;
+  box-shadow: 0 0 10px 2px #3b0b0b;
+  transition: 0.75s;
+  opacity: 1;
+}
+
+.minBackgroundSneak {
+  position: absolute;
+  width: inherit;
+  height: inherit;
   background-size: cover;
+  z-index: -3;
+}
+
+.maxBackgroundSneak {
+  position: absolute;
+  width: inherit;
+  height: inherit;
+  background-size: cover;
+  z-index: -3;
+  opacity: 0.75;
+}
+
+.fishTile h3 {
+  color: rgb(5, 14, 129);
+}
+
+.minFishTile {
+  width: 250px;
+  height: 200px;
+  background-size: cover;
+}
+
+.maxFishTile {
+  background-size: cover;
+  width: 500px;
   height: 400px;
-  width: 100%;
+}
+
+.fishTile:hover {
+  transform: scale(1.05);
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 5s linear;
+  height: 80px;
+  transition: all 0.2s ease-in-out;
+}
+
+.footer {
+  padding: 1%;
+  clear: both;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.fishImg {
+  width: 400px;
+  height: 280px;
+  object-fit: cover;
+  aspect-ratio: 1.5;
+}
+
+.ui.grid.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 20px;
 }

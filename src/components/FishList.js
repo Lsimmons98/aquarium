@@ -1,7 +1,11 @@
 import React from "react"
+import FishCard from "./FishCard"
 import "../style.css"
 
-function FishList({ tankSpecs }) {
+function FishList({ fish }) {
+  const displayFish = () =>
+    fish.map((fish) => <FishCard key={fish.id} fish={fish} />)
+
   // Filter fish based on tank specifications
   // const filteredFish = fishData.filter((fish) => {
   //   return (
@@ -10,16 +14,7 @@ function FishList({ tankSpecs }) {
   //   )
   // })
 
-  return (
-    <div className="FishList">
-      <h2>Available Fish</h2>
-      <div className="fish-container">
-        {/* {filteredFish.map((fish) => (
-          <FishCard key={fish.id} fish={fish} />
-        ))} */}
-      </div>
-    </div>
-  )
+  return <div className="ui grid container">{displayFish()}</div>
 }
 
 export default FishList
