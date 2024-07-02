@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react"
 import NavBar from "../components/NavBar"
 import TankForm from "../components/TankForm"
-import FishList from "../components/FishList"
+import AddFishForm from "../components/AddFishForm"
 import "../style.css"
 
 const Calculator = () => {
@@ -18,7 +18,7 @@ const Calculator = () => {
     )
   }
 
-  const listFishes = () => {
+  const listCompatibleFishes = () => {
     return filteredFishes.map((fish) => {
       return <li key={fish.id}>{fish.fish_name}</li>
     })
@@ -36,10 +36,20 @@ const Calculator = () => {
       <header>
         <NavBar />
       </header>
-      <main>
-        <h1>Calculator</h1>
+      <main className="calculator-container">
+        <h1>Aquarium Calculator</h1>
         <TankForm filterFishes={filterFishes} />
-        <ul>{listFishes()}</ul>
+        <div className="boxes-container">
+          <div className="compatible-fish-box">
+            <h2>Compatible Fish</h2>
+            <ul>{listCompatibleFishes()}</ul>
+          </div>
+          <div className="my-aquarium-box">
+            <h2>My Aquarium</h2>
+            {/* Add content for My Aquarium here */}
+          </div>
+        </div>
+        <AddFishForm />
       </main>
     </>
   )

@@ -201,3 +201,85 @@ ul {
 .info-button:hover {
   background-color: #0056b3;
 }
+
+.calculator-container {
+  padding: 20px;
+}
+
+.boxes-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.compatible-fish-box,
+.my-aquarium-box {
+  width: 45%;
+  padding: 20px;
+  border: 5px solid #1418eb;
+  border-radius: 5px;
+  background-color: #a4e7ff;
+}
+
+.compatible-fish-box h2,
+.my-aquarium-box h2 {
+  margin-top: 0;
+}
+
+.compatible-fish-box ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.compatible-fish-box ul li {
+  margin-bottom: 10px;
+}
+
+.add-fish-form {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  height: auto;
+  margin: 20px auto;
+  padding: 20px;
+  border: 5px solid #0a3df8;
+  border-radius: 10px;
+  background-color: #b9c3f8;
+}
+
+.add-fish-form h2 {
+  margin-bottom: 15px;
+}
+
+.add-fish-form label {
+  margin-bottom: 10px;
+}
+
+.add-fish-form input[type="text"],
+.add-fish-form input[type="number"] {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.add-fish-form input[type="checkbox"] {
+  margin-left: 10px;
+}
+
+.add-fish-form button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: rgb(242, 245, 244);
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.add-fish-form button:hover {
+  background-color: #0056b3;
+}
