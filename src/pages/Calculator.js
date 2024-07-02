@@ -18,6 +18,11 @@ const Calculator = () => {
     )
   }
 
+  const listFishes = () => {
+    return filteredFishes.map((fish) => {
+      return <li key={fish.id}>{fish.fish_name}</li>
+    })
+  }
   useEffect(() => {
     fetch("http://localhost:3001/fishes")
       .then((resp) => resp.json())
@@ -34,7 +39,7 @@ const Calculator = () => {
       <main>
         <h1>Calculator</h1>
         <TankForm filterFishes={filterFishes} />
-        <FishList fishes={filteredFishes} />
+        <ul>{listFishes()}</ul>
       </main>
     </>
   )

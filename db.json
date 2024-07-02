@@ -20,7 +20,7 @@
       "notes": "Provide hiding spots to reduce aggression.",
       "water_type": "Freshwater",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQn1GbeMkct-o3a9Ac2gRm9lYcO7_x6Nkjsww&s",
-      "favorite": false
+      "favorite": true
     },
     {
       "id": "3",
@@ -31,7 +31,7 @@
       "notes": "Keep with larger tank mates; prefers tall tanks.",
       "water_type": "Freshwater",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTObv7q-rxn4DtwjH8nQBliwlou4EOglWnvyw&s",
-      "favorite": false
+      "favorite": true
     },
     {
       "id": "4",
@@ -53,7 +53,7 @@
       "notes": "Prefers slightly brackish water conditions.",
       "water_type": "Freshwater",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTs27WdSiA2MPGZ-6jQq3Yca4bez5U9WmMufw&s",
-      "favorite": false
+      "favorite": true
     },
     {
       "id": "6",
@@ -119,7 +119,7 @@
       "notes": "Keep with peaceful tank mates.",
       "water_type": "Freshwater",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6Ktk6foAc24BJdAOiXoSDdtvBREnXy-F0_A&s",
-      "favorite": true
+      "favorite": false
     },
     {
       "id": "12",
@@ -130,7 +130,7 @@
       "notes": "Prefers schools and open swimming space.",
       "water_type": "Freshwater",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMS348d3-iyA7ibJTm2mNZ9MFNF0KbqvCykw&s",
-      "favorite": true
+      "favorite": false
     },
     {
       "id": "13",
@@ -240,7 +240,7 @@
       "notes": "Requires a large tank with excellent water quality.",
       "water_type": "Saltwater",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNA86XYJAJsDpDVUInr2jhsCBMQFWaj72L2w&s",
-      "favorite": true
+      "favorite": false
     },
     {
       "id": "25",
@@ -295,7 +295,7 @@
       "notes": "Elegant and peaceful; prefers planted tanks.",
       "water_type": "Freshwater",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrAJa8IX6KdYBwINE4mLPBvjtjWsEUEE_0GQ&s",
-      "favorite": true
+      "favorite": false
     },
     {
       "id": "31",
@@ -328,7 +328,7 @@
       "notes": "Coldwater fish; needs adequate space.",
       "water_type": "Freshwater",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTl61T6Ay3xEBZG3k4qugX1n9FEUqM5yLaWVg&s",
-      "favorite": true
+      "favorite": false
     },
     {
       "id": "34",

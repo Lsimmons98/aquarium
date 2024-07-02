@@ -7,8 +7,7 @@ function TankForm({ filterFishes }) {
     waterType: "Freshwater",
   })
 
-  const handleChange = (e) => {
-    const { name, value } = e.target
+  const handleChange = ({ target: { name, value } }) => {
     setTankSpecs({ ...tankSpecs, [name]: value })
   }
 
