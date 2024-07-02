@@ -3,12 +3,18 @@ import NavBar from "../components/NavBar"
 import FishList from "../components/FishList"
 import "../style.css"
 
-function Favorites({ favoriteFishes }) {
-  const displayFavoriteFishes = () => {}
+function Favorites() {
+  const [fishes, setFishes] = useState([])
 
-  if (!favoriteFishes) {
-    return "Loading"
-  }
+  useEffect(() => {
+    fetch("http://localhost:3001/fishes")
+      .then((resp) => resp.json())
+      .then((data) => {
+        setFishes(data)
+      })
+  }, [])
+
+  const favoriteFishes = fishes.filter((fish) => fish.favorite === true)
 
   return (
     <>
@@ -16,7 +22,7 @@ function Favorites({ favoriteFishes }) {
         <NavBar />
       </header>
       <main>
-        <h1>Home</h1>
+        <h1>Favorites</h1>
         {<FishList fishes={favoriteFishes} />}
       </main>
     </>

@@ -4,25 +4,15 @@ import FishList from "../components/FishList"
 import "../style.css"
 
 function Home() {
-  const [tankSpecs, setTankSpecs] = useState({ gallons: 0, waterType: "" })
-  const [fishes, setFishes] = useState(null)
+  const [fishes, setFishes] = useState([])
 
   useEffect(() => {
-    fetch("http://localhost:3001/fish")
+    fetch("http://localhost:3001/fishes")
       .then((resp) => resp.json())
       .then((data) => {
-        console.log(data)
         setFishes(data)
       })
   }, [])
-
-  const handleTankSpecsChange = (specs) => {
-    setTankSpecs(specs)
-  }
-
-  if (!fishes) {
-    return "Loading"
-  }
 
   return (
     <>

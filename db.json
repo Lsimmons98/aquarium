@@ -1,494 +1,532 @@
 {
-  "fish": [
+  "fishes": [
     {
-      "id": 1,
+      "id": "1",
       "fish_name": "Neon Tetra",
       "tank_size_gallons": 10,
       "average_length_inches": 1.5,
       "aggressiveness": "Community",
       "notes": "Keep in schools for best behavior.",
       "water_type": "Freshwater",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTqexDcjD4cv06_tS_ZrX-pvVRVc6GCMpbTw&s"
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTqexDcjD4cv06_tS_ZrX-pvVRVc6GCMpbTw&s",
+      "favorite": false
     },
     {
-      "id": 2,
+      "id": "2",
       "fish_name": "Betta Fish",
       "tank_size_gallons": 5,
       "average_length_inches": 2.5,
       "aggressiveness": "Semi-aggressive",
       "notes": "Provide hiding spots to reduce aggression.",
       "water_type": "Freshwater",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQn1GbeMkct-o3a9Ac2gRm9lYcO7_x6Nkjsww&s"
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQn1GbeMkct-o3a9Ac2gRm9lYcO7_x6Nkjsww&s",
+      "favorite": false
     },
     {
-      "id": 3,
+      "id": "3",
       "fish_name": "Angelfish",
       "tank_size_gallons": 30,
       "average_length_inches": 6,
       "aggressiveness": "Semi-aggressive",
       "notes": "Keep with larger tank mates; prefers tall tanks.",
       "water_type": "Freshwater",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTObv7q-rxn4DtwjH8nQBliwlou4EOglWnvyw&s"
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTObv7q-rxn4DtwjH8nQBliwlou4EOglWnvyw&s",
+      "favorite": false
     },
     {
-      "id": 4,
+      "id": "4",
       "fish_name": "Guppy",
       "tank_size_gallons": 10,
       "average_length_inches": 2,
       "aggressiveness": "Community",
       "notes": "Males are colorful; females are larger.",
       "water_type": "Freshwater",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpQwPNyf3j37z0DGn5fULxtZijgTnp_3_HMQ&s"
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpQwPNyf3j37z0DGn5fULxtZijgTnp_3_HMQ&s",
+      "favorite": false
     },
     {
-      "id": 5,
+      "id": "5",
       "fish_name": "Mollie",
       "tank_size_gallons": 20,
       "average_length_inches": 3,
       "aggressiveness": "Community",
       "notes": "Prefers slightly brackish water conditions.",
       "water_type": "Freshwater",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTs27WdSiA2MPGZ-6jQq3Yca4bez5U9WmMufw&s"
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTs27WdSiA2MPGZ-6jQq3Yca4bez5U9WmMufw&s",
+      "favorite": false
     },
     {
-      "id": 6,
+      "id": "6",
       "fish_name": "Discus",
       "tank_size_gallons": 50,
       "average_length_inches": 6,
       "aggressiveness": "Peaceful",
       "notes": "Requires warm, soft water and frequent feeding.",
       "water_type": "Freshwater",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRq4cWfpJkgKp9tcibyDJ1hEP6ZvHofz47rJg&s"
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRq4cWfpJkgKp9tcibyDJ1hEP6ZvHofz47rJg&s",
+      "favorite": false
     },
     {
-      "id": 7,
+      "id": "7",
       "fish_name": "Corydoras Catfish",
       "tank_size_gallons": 20,
       "average_length_inches": 2.5,
       "aggressiveness": "Peaceful",
       "notes": "Keep in groups; bottom-dweller.",
       "water_type": "Freshwater",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7qtvh7xWqK0cDTDh6lmehDLj66Ht0zqpcCw&s"
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7qtvh7xWqK0cDTDh6lmehDLj66Ht0zqpcCw&s",
+      "favorite": false
     },
     {
-      "id": 8,
+      "id": "8",
       "fish_name": "Tiger Barb",
       "tank_size_gallons": 20,
       "average_length_inches": 3,
       "aggressiveness": "Semi-aggressive",
       "notes": "Can be nippy; keep in schools.",
       "water_type": "Freshwater",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzvtS8LOkSEGPbOdMsxuWoysJYiSgWT8ylKg&s"
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzvtS8LOkSEGPbOdMsxuWoysJYiSgWT8ylKg&s",
+      "favorite": false
     },
     {
-      "id": 9,
+      "id": "9",
       "fish_name": "Zebra Danio",
       "tank_size_gallons": 10,
       "average_length_inches": 2,
       "aggressiveness": "Community",
       "notes": "Active swimmers; keep in groups.",
       "water_type": "Freshwater",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTu1wYkR6rtJ4t8-bZLccKPcwVRBGnKv72TTA&s"
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTu1wYkR6rtJ4t8-bZLccKPcwVRBGnKv72TTA&s",
+      "favorite": false
     },
     {
-      "id": 10,
+      "id": "10",
       "fish_name": "Bristlenose Pleco",
       "tank_size_gallons": 30,
       "average_length_inches": 5,
       "aggressiveness": "Peaceful",
       "notes": "Good algae eaters; provide hiding spots.",
       "water_type": "Freshwater",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQ1MCp5aX7g_5g4jfjj0uQmgyUWSRYhbYM7Q&s"
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQ1MCp5aX7g_5g4jfjj0uQmgyUWSRYhbYM7Q&s",
+      "favorite": false
     },
     {
-      "id": 11,
+      "id": "11",
       "fish_name": "Swordtail",
       "tank_size_gallons": 20,
       "average_length_inches": 4,
       "aggressiveness": "Community",
       "notes": "Keep with peaceful tank mates.",
       "water_type": "Freshwater",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6Ktk6foAc24BJdAOiXoSDdtvBREnXy-F0_A&s"
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6Ktk6foAc24BJdAOiXoSDdtvBREnXy-F0_A&s",
+      "favorite": true
     },
     {
-      "id": 12,
+      "id": "12",
       "fish_name": "Rainbowfish",
       "tank_size_gallons": 30,
       "average_length_inches": 4,
       "aggressiveness": "Community",
       "notes": "Prefers schools and open swimming space.",
       "water_type": "Freshwater",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMS348d3-iyA7ibJTm2mNZ9MFNF0KbqvCykw&s"
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMS348d3-iyA7ibJTm2mNZ9MFNF0KbqvCykw&s",
+      "favorite": true
     },
     {
-      "id": 13,
+      "id": "13",
       "fish_name": "Killifish",
       "tank_size_gallons": 10,
       "average_length_inches": 2.5,
       "aggressiveness": "Semi-aggressive",
       "notes": "Requires cover and peaceful tank mates.",
       "water_type": "Freshwater",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyQ_LyZLf3_MVeCwchRL2FWz3L6q4-udl07g&s"
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyQ_LyZLf3_MVeCwchRL2FWz3L6q4-udl07g&s",
+      "favorite": false
     },
     {
-      "id": 14,
-      "fish_name": "Betta Fish",
-      "tank_size_gallons": 5,
-      "average_length_inches": 2.5,
-      "aggressiveness": "Semi-aggressive",
-      "notes": "Provide hiding spots to reduce aggression.",
-      "water_type": "Freshwater",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAetCHiJkk7_SNdZnMMnmM58MnVhgWKgUyEg&s"
-    },
-    {
-      "id": 16,
+      "id": "16",
       "fish_name": "Clownfish",
       "tank_size_gallons": 20,
       "average_length_inches": 3,
       "aggressiveness": "Semi-aggressive",
       "notes": "Pairs well with anemones; active swimmers.",
       "water_type": "Saltwater",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZoZgZbPp3F4Zi33acOsIhhRneHaVWeMU8tA&s"
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZoZgZbPp3F4Zi33acOsIhhRneHaVWeMU8tA&s",
+      "favorite": false
     },
     {
-      "id": 17,
+      "id": "17",
       "fish_name": "Blue Tang",
       "tank_size_gallons": 100,
       "average_length_inches": 12,
       "aggressiveness": "Semi-aggressive",
       "notes": "Needs large swimming space; can be territorial.",
       "water_type": "Saltwater",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFmwYclbT7phFyrjYGxnnqLi89zdmxvCsuPA&s"
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFmwYclbT7phFyrjYGxnnqLi89zdmxvCsuPA&s",
+      "favorite": false
     },
     {
-      "id": 18,
+      "id": "18",
       "fish_name": "Yellow Tang",
       "tank_size_gallons": 75,
       "average_length_inches": 8,
       "aggressiveness": "Semi-aggressive",
       "notes": "Requires a mature tank with plenty of algae.",
       "water_type": "Saltwater",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRfwD_j_RC4kfjbZbVSeRUYGzRMpwmAPtyJw&s"
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRfwD_j_RC4kfjbZbVSeRUYGzRMpwmAPtyJw&s",
+      "favorite": false
     },
     {
-      "id": 19,
+      "id": "19",
       "fish_name": "Firefish Goby",
       "tank_size_gallons": 10,
       "average_length_inches": 3,
       "aggressiveness": "Peaceful",
       "notes": "Jumpers; use a lid on the tank.",
       "water_type": "Saltwater",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4q-x2ehiWVDE4IhoMtkIJuLFvE1Hsk3WdVA&s"
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4q-x2ehiWVDE4IhoMtkIJuLFvE1Hsk3WdVA&s",
+      "favorite": false
     },
     {
-      "id": 20,
+      "id": "20",
       "fish_name": "Mandarin Dragonet",
       "tank_size_gallons": 30,
       "average_length_inches": 3,
       "aggressiveness": "Peaceful",
       "notes": "Needs a mature tank with a lot of live rock.",
       "water_type": "Saltwater",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdGZlfv7DtAjuq8LUBbOMpoW0dyghhYECUcg&s"
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdGZlfv7DtAjuq8LUBbOMpoW0dyghhYECUcg&s",
+      "favorite": false
     },
     {
-      "id": 21,
+      "id": "21",
       "fish_name": "Royal Gramma",
       "tank_size_gallons": 30,
       "average_length_inches": 3,
       "aggressiveness": "Peaceful",
       "notes": "Peaceful but may be territorial with similar fish.",
       "water_type": "Saltwater",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTU3by0RiaomsMoSnP5CAtFfFjpmxC-nK1X7w&s"
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTU3by0RiaomsMoSnP5CAtFfFjpmxC-nK1X7w&s",
+      "favorite": false
     },
     {
-      "id": 22,
+      "id": "22",
       "fish_name": "Banggai Cardinalfish",
       "tank_size_gallons": 20,
       "average_length_inches": 3,
       "aggressiveness": "Peaceful",
       "notes": "Likes to hide in caves; peaceful community fish.",
       "water_type": "Saltwater",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRL_EGR-sT7i7xRThe3rjpyGcLg18fImT9wfA&s"
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRL_EGR-sT7i7xRThe3rjpyGcLg18fImT9wfA&s",
+      "favorite": false
     },
     {
-      "id": 23,
+      "id": "23",
       "fish_name": "Blue Jaw Triggerfish",
       "tank_size_gallons": 125,
       "average_length_inches": 10,
       "aggressiveness": "Aggressive",
       "notes": "Needs a large tank with hiding spots; can be aggressive.",
       "water_type": "Saltwater",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_N2zSPZM71r0NdkoUDbBmRFxfOf_QtOUoWQ&s"
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_N2zSPZM71r0NdkoUDbBmRFxfOf_QtOUoWQ&s",
+      "favorite": false
     },
     {
-      "id": 24,
+      "id": "24",
       "fish_name": "Powder Blue Tang",
       "tank_size_gallons": 100,
       "average_length_inches": 9,
       "aggressiveness": "Semi-aggressive",
       "notes": "Requires a large tank with excellent water quality.",
       "water_type": "Saltwater",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNA86XYJAJsDpDVUInr2jhsCBMQFWaj72L2w&s"
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNA86XYJAJsDpDVUInr2jhsCBMQFWaj72L2w&s",
+      "favorite": true
     },
     {
-      "id": 25,
+      "id": "25",
       "fish_name": "Pajama Cardinalfish",
       "tank_size_gallons": 20,
       "average_length_inches": 3,
       "aggressiveness": "Peaceful",
       "notes": "Peaceful schooling fish; prefers dim lighting.",
       "water_type": "Saltwater",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFk0UUTUMMPb9GXFW6Rhz_d_PxBZnwdOK1QA&s"
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFk0UUTUMMPb9GXFW6Rhz_d_PxBZnwdOK1QA&s",
+      "favorite": false
     },
     {
-      "id": 26,
+      "id": "26",
       "fish_name": "Neon Blue Dwarf Gourami",
       "tank_size_gallons": 10,
       "average_length_inches": 3,
       "aggressiveness": "Peaceful",
       "notes": "Colorful and peaceful; keep in groups.",
       "water_type": "Freshwater",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuO4dFGynOLTAxvky8jvY1mBGz47_NNYvftQ&s"
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuO4dFGynOLTAxvky8jvY1mBGz47_NNYvftQ&s",
+      "favorite": false
     },
     {
-      "id": 27,
+      "id": "27",
       "fish_name": "Harlequin Rasbora",
       "tank_size_gallons": 10,
       "average_length_inches": 2,
       "aggressiveness": "Community",
       "notes": "Schooling fish; keep in groups.",
       "water_type": "Freshwater",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREHRJwApTsO2nup01zZPJDBgiPW1H0rS4D8A&s"
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREHRJwApTsO2nup01zZPJDBgiPW1H0rS4D8A&s",
+      "favorite": true
     },
     {
-      "id": 28,
+      "id": "28",
       "fish_name": "Electric Yellow Cichlid",
       "tank_size_gallons": 30,
       "average_length_inches": 6,
       "aggressiveness": "Semi-aggressive",
       "notes": "Vibrant colors; choose tank mates carefully.",
       "water_type": "Freshwater",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgIqOmFxd4R_U2O3NwYbxyV_3y90YjarY-xA&s"
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgIqOmFxd4R_U2O3NwYbxyV_3y90YjarY-xA&s",
+      "favorite": false
     },
     {
-      "id": 30,
+      "id": "30",
       "fish_name": "Pearl Gourami",
       "tank_size_gallons": 20,
       "average_length_inches": 4,
       "aggressiveness": "Peaceful",
       "notes": "Elegant and peaceful; prefers planted tanks.",
       "water_type": "Freshwater",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrAJa8IX6KdYBwINE4mLPBvjtjWsEUEE_0GQ&s"
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrAJa8IX6KdYBwINE4mLPBvjtjWsEUEE_0GQ&s",
+      "favorite": true
     },
     {
-      "id": 31,
+      "id": "31",
       "fish_name": "Kuhli Loach",
       "tank_size_gallons": 20,
       "average_length_inches": 4,
       "aggressiveness": "Peaceful",
       "notes": "Bottom-dweller; keep in groups.",
       "water_type": "Freshwater",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYkQDYXvWFYlnw3tC3ED4iSa4slR0Pl8w_aw&s"
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYkQDYXvWFYlnw3tC3ED4iSa4slR0Pl8w_aw&s",
+      "favorite": false
     },
     {
-      "id": 32,
+      "id": "32",
       "fish_name": "Cherry Barb",
       "tank_size_gallons": 10,
       "average_length_inches": 2,
       "aggressiveness": "Semi-aggressive",
       "notes": "Active and colorful; keep in schools.",
       "water_type": "Freshwater",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVmNFDILEpUFDVovUg-edx0TYhZplBGIMEEQ&s"
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVmNFDILEpUFDVovUg-edx0TYhZplBGIMEEQ&s",
+      "favorite": false
     },
     {
-      "id": 33,
+      "id": "33",
       "fish_name": "Goldfish",
       "tank_size_gallons": 20,
       "average_length_inches": 8,
       "aggressiveness": "Community",
       "notes": "Coldwater fish; needs adequate space.",
       "water_type": "Freshwater",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTl61T6Ay3xEBZG3k4qugX1n9FEUqM5yLaWVg&s"
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTl61T6Ay3xEBZG3k4qugX1n9FEUqM5yLaWVg&s",
+      "favorite": true
     },
     {
-      "id": 34,
+      "id": "34",
       "fish_name": "Oscar Fish",
       "tank_size_gallons": 75,
       "average_length_inches": 12,
       "aggressiveness": "Aggressive",
       "notes": "Large and territorial; needs large tank.",
       "water_type": "Freshwater",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtK6fNOvnj6oKiugaOmocERNh8mX33CaCGrQ&s"
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtK6fNOvnj6oKiugaOmocERNh8mX33CaCGrQ&s",
+      "favorite": true
     },
     {
-      "id": 35,
+      "id": "35",
       "fish_name": "Bala Shark",
       "tank_size_gallons": 75,
       "average_length_inches": 12,
       "aggressiveness": "Semi-aggressive",
       "notes": "Large and active; needs a spacious tank.",
       "water_type": "Freshwater",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8eC_JhelSzg6qHFbeUA8BFCZs_h9phhR2MQ&s"
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8eC_JhelSzg6qHFbeUA8BFCZs_h9phhR2MQ&s",
+      "favorite": false
     },
     {
-      "id": 36,
+      "id": "36",
       "fish_name": "Dwarf Neon Rainbowfish",
       "tank_size_gallons": 20,
       "average_length_inches": 2.5,
       "aggressiveness": "Peaceful",
       "notes": "Schooling fish; prefers planted tanks.",
       "water_type": "Freshwater",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCk2hob-O8ntTO8rRzJAtYf4E_yRdPl_2MJA&s"
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCk2hob-O8ntTO8rRzJAtYf4E_yRdPl_2MJA&s",
+      "favorite": false
     },
     {
-      "id": 37,
+      "id": "37",
       "fish_name": "Electric Blue Ram",
       "tank_size_gallons": 20,
       "average_length_inches": 3,
       "aggressiveness": "Peaceful",
       "notes": "Colorful and peaceful; prefers warm water.",
       "water_type": "Freshwater",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdfxGXU4XbcNuLWR-IEuN73x_3YFdEzJAUig&s"
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdfxGXU4XbcNuLWR-IEuN73x_3YFdEzJAUig&s",
+      "favorite": true
     },
     {
-      "id": 38,
+      "id": "38",
       "fish_name": "Platy",
       "tank_size_gallons": 10,
       "average_length_inches": 2.5,
       "aggressiveness": "Community",
       "notes": "Easy to care for; livebearer fish.",
       "water_type": "Freshwater",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqbh9AJ152-BkONoAuZYhZGpVM7KBX0DJqkQ&s"
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqbh9AJ152-BkONoAuZYhZGpVM7KBX0DJqkQ&s",
+      "favorite": false
     },
     {
-      "id": 39,
+      "id": "39",
       "fish_name": "Six Line Wrasse",
       "tank_size_gallons": 30,
       "average_length_inches": 3,
       "aggressiveness": "Semi-aggressive",
       "notes": "Active swimmer; keep with other semi-aggressive fish.",
       "water_type": "Saltwater",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGiEbgFJv5vtXS0zc_cvaJjxCNsdCsA9Z5dw&s"
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGiEbgFJv5vtXS0zc_cvaJjxCNsdCsA9Z5dw&s",
+      "favorite": false
     },
     {
-      "id": 40,
+      "id": "40",
       "fish_name": "Yellow Watchman Goby",
       "tank_size_gallons": 20,
       "average_length_inches": 4,
       "aggressiveness": "Peaceful",
       "notes": "Forms symbiotic relationships with pistol shrimp.",
       "water_type": "Saltwater",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhoz0ovgWH2yDPICQ9bGYEj3nHrZdm3m0cSQ&s"
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhoz0ovgWH2yDPICQ9bGYEj3nHrZdm3m0cSQ&s",
+      "favorite": false
     },
     {
-      "id": 41,
+      "id": "41",
       "fish_name": "Moorish Idol",
       "tank_size_gallons": 100,
       "average_length_inches": 9,
       "aggressiveness": "Semi-aggressive",
       "notes": "Challenging to keep; needs plenty of swimming space.",
       "water_type": "Saltwater",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5-6mEAEabWATP91hcKCN_0Ff-ZfW_kMuJvw&s"
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5-6mEAEabWATP91hcKCN_0Ff-ZfW_kMuJvw&s",
+      "favorite": false
     },
     {
-      "id": 42,
+      "id": "42",
       "fish_name": "Flame Angelfish",
       "tank_size_gallons": 30,
       "average_length_inches": 4,
       "aggressiveness": "Semi-aggressive",
       "notes": "Colorful and active; may be territorial.",
       "water_type": "Saltwater",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTql6hmyYTzU4FA4xg-0ZIhaC_QxkDluHy-og&s"
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTql6hmyYTzU4FA4xg-0ZIhaC_QxkDluHy-og&s",
+      "favorite": false
     },
     {
-      "id": 43,
+      "id": "43",
       "fish_name": "Harlequin Tuskfish",
       "tank_size_gallons": 100,
       "average_length_inches": 12,
       "aggressiveness": "Semi-aggressive",
       "notes": "Needs large tank with plenty of hiding places.",
       "water_type": "Saltwater",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_FJDWoi-SkZbVZqpqd5tJEarCBd04FDK7eQ&s"
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_FJDWoi-SkZbVZqpqd5tJEarCBd04FDK7eQ&s",
+      "favorite": false
     },
     {
-      "id": 44,
+      "id": "44",
       "fish_name": "Regal Tang",
       "tank_size_gallons": 75,
       "average_length_inches": 12,
       "aggressiveness": "Semi-aggressive",
       "notes": "Requires a large tank with stable water parameters.",
       "water_type": "Saltwater",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHGYMRnxbuSQJGf2XNy6cMmKoJWmI0mJBMWQ&s"
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHGYMRnxbuSQJGf2XNy6cMmKoJWmI0mJBMWQ&s",
+      "favorite": false
     },
     {
-      "id": 45,
+      "id": "45",
       "fish_name": "Coral Beauty Angelfish",
       "tank_size_gallons": 30,
       "average_length_inches": 4,
       "aggressiveness": "Semi-aggressive",
       "notes": "Hardy; prefers established reef tanks.",
       "water_type": "Saltwater",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOmUGfp3843WrApeTPJQ5d-bZkeh83Rx3tfQ&s"
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOmUGfp3843WrApeTPJQ5d-bZkeh83Rx3tfQ&s",
+      "favorite": true
     },
     {
-      "id": 46,
+      "id": "46",
       "fish_name": "Blue Reef Chromis",
       "tank_size_gallons": 30,
       "average_length_inches": 3,
       "aggressiveness": "Peaceful",
       "notes": "Schooling fish; keep in groups.",
       "water_type": "Saltwater",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQru_lMscgUEeYK23vv9tUW4PzZlJ5q0CYjdA&s"
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQru_lMscgUEeYK23vv9tUW4PzZlJ5q0CYjdA&s",
+      "favorite": false
     },
     {
-      "id": 47,
+      "id": "47",
       "fish_name": "Lawnmower Blenny",
       "tank_size_gallons": 20,
       "average_length_inches": 5,
       "aggressiveness": "Peaceful",
       "notes": "Algae eater; needs plenty of rockwork to graze.",
       "water_type": "Saltwater",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPkDjgIORI9hEKD6K2ZkXjthQfbPy0YtFiJA&s"
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPkDjgIORI9hEKD6K2ZkXjthQfbPy0YtFiJA&s",
+      "favorite": false
     },
     {
-      "id": 48,
+      "id": "48",
       "fish_name": "Percula Clownfish",
       "tank_size_gallons": 20,
       "average_length_inches": 3,
       "aggressiveness": "Semi-aggressive",
       "notes": "Pairs well with anemones; hardy and colorful.",
       "water_type": "Saltwater",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGpB15trAuTtixX9U8OD-gH8V74D6z2Idz8w&s"
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGpB15trAuTtixX9U8OD-gH8V74D6z2Idz8w&s",
+      "favorite": false
     },
     {
-      "id": 49,
+      "id": "49",
       "fish_name": "Blue Green Chromis",
       "tank_size_gallons": 30,
       "average_length_inches": 3,
       "aggressiveness": "Peaceful",
       "notes": "Schooling fish; add in odd numbers to reduce aggression.",
       "water_type": "Saltwater",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9iTnXEIs5mkZpwwPJxgaVMBcGuJXenQak0w&s"
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9iTnXEIs5mkZpwwPJxgaVMBcGuJXenQak0w&s",
+      "favorite": false
     },
     {
-      "id": 50,
+      "id": "50",
       "fish_name": "Kole Tang",
       "tank_size_gallons": 75,
       "average_length_inches": 7,
       "aggressiveness": "Semi-aggressive",
       "notes": "Excellent algae eater; needs a large tank with hiding spots.",
       "water_type": "Saltwater",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTe6mqAnQ2KAJS4blW906r16JZELtpWTLQzHQ&s"
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTe6mqAnQ2KAJS4blW906r16JZELtpWTLQzHQ&s",
+      "favorite": false
     },
     {
-      "id": 51,
+      "id": "51",
       "fish_name": "Yellow Longnose Butterflyfish",
       "tank_size_gallons": 100,
       "average_length_inches": 10,
       "aggressiveness": "Semi-aggressive",
       "notes": "Needs a large tank with plenty of swimming space.",
       "water_type": "Saltwater",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-6cdaQ7AxNkOzvBo-l0oJjbOGu5KWQJ_ujQ&s"
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-6cdaQ7AxNkOzvBo-l0oJjbOGu5KWQJ_ujQ&s",
+      "favorite": false
     }
   ]
 }

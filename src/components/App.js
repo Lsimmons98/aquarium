@@ -8,7 +8,7 @@ function App() {
   const [fish, setFish] = useState(null)
 
   useEffect(() => {
-    fetch("http://localhost:3001/fish")
+    fetch("http://localhost:3001/fishes")
       .then((resp) => resp.json())
       .then((data) => {
         console.log(data)
