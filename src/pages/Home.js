@@ -3,16 +3,16 @@ import NavBar from "../components/NavBar"
 import FishList from "../components/FishList"
 import "../style.css"
 
-function App() {
+function Home() {
   const [tankSpecs, setTankSpecs] = useState({ gallons: 0, waterType: "" })
-  const [fish, setFish] = useState(null)
+  const [fishes, setFishes] = useState(null)
 
   useEffect(() => {
     fetch("http://localhost:3001/fish")
       .then((resp) => resp.json())
       .then((data) => {
         console.log(data)
-        setFish(data)
+        setFishes(data)
       })
   }, [])
 
@@ -20,7 +20,7 @@ function App() {
     setTankSpecs(specs)
   }
 
-  if (!fish) {
+  if (!fishes) {
     return "Loading"
   }
 
@@ -31,10 +31,10 @@ function App() {
       </header>
       <main>
         <h1>Home</h1>
-        {<FishList fish={fish} />}
+        {<FishList fishes={fishes} />}
       </main>
     </>
   )
 }
 
-export default App
+export default Home

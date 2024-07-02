@@ -21,7 +21,7 @@ function TankForm({ onTankSpecsChange }) {
   return (
     <form onSubmit={handleSubmit}>
       <label>
-        Gallons:
+        Tank Size (Gallons):
         <input type="number" value={gallons} onChange={handleGallonsChange} />
       </label>
       <label>

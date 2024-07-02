@@ -73,6 +73,7 @@ ul {
   display: inline;
   background-repeat: no-repeat;
   background-position: center 90%;
+  background-color: #7675d9;
   float: left;
   margin: 2%;
   padding: 1%;
@@ -151,4 +152,35 @@ ul {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   gap: 20px;
+}
+
+.nav-link {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 100px;
+  padding: 5px;
+  margin: 0 6px 6px;
+  background: blue;
+  text-decoration: none;
+  text-align: center;
+  font-size: min(10vw, 15px);
+  color: white;
+}
+
+.active {
+  color: rgb(43, 237, 13);
+}
+
+.favorite-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 36px; /* Increase the font size */
+  padding: 10px; /* Add padding to increase the clickable area */
+  color: rgb(9, 8, 8);
+  transition: color 0.3s;
+}
+
+.favorite-button.favorite {
+  color: gold;
 }

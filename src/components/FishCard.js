@@ -1,8 +1,9 @@
-import React from "react"
+import React, { useState } from "react"
 import PropTypes from "prop-types"
 import "../style.css"
 
 const FishCard = ({ fish }) => {
+  const [isFavorite, setIsFavorite] = useState(false)
   const {
     image,
     fish_name,
@@ -11,6 +12,11 @@ const FishCard = ({ fish }) => {
     aggressiveness,
     notes,
   } = fish
+
+  const toggleFavorite = () => {
+    setIsFavorite(!isFavorite)
+  }
+
   return (
     <div className="fishTile">
       <div id={fish_name} className="ui eight wide column">
@@ -21,6 +27,12 @@ const FishCard = ({ fish }) => {
           <p>Water Type: {water_type}</p>
           <p>Temperament: {aggressiveness}</p>
           <p>Care Requirements: {notes}</p>
+          <button
+            className={`favorite-button ${isFavorite ? "favorite" : ""}`}
+            onClick={toggleFavorite}
+          >
+            {isFavorite ? "★" : "☆"}
+          </button>
         </div>
       </div>
     </div>
