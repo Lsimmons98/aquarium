@@ -9,7 +9,7 @@
       "notes": "Keep in schools for best behavior.",
       "water_type": "Freshwater",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTqexDcjD4cv06_tS_ZrX-pvVRVc6GCMpbTw&s",
-      "favorite": false,
+      "favorite": true,
       "quantity": 0
     },
     {
@@ -21,7 +21,7 @@
       "notes": "Provide hiding spots to reduce aggression.",
       "water_type": "Freshwater",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQn1GbeMkct-o3a9Ac2gRm9lYcO7_x6Nkjsww&s",
-      "favorite": false,
+      "favorite": true,
       "quantity": 0
     },
     {
@@ -46,7 +46,7 @@
       "water_type": "Freshwater",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpQwPNyf3j37z0DGn5fULxtZijgTnp_3_HMQ&s",
       "favorite": false,
-      "quantity": 5
+      "quantity": 0
     },
     {
       "id": "5",
@@ -286,7 +286,7 @@
       "water_type": "Freshwater",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuO4dFGynOLTAxvky8jvY1mBGz47_NNYvftQ&s",
       "favorite": false,
-      "quantity": 3
+      "quantity": 0
     },
     {
       "id": "27",

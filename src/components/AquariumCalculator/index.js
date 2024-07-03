@@ -30,18 +30,20 @@ const AquariumCalculator = () => {
       fish.tank_size_gallons <= aquariumSpecs.gallons &&
       fish.water_type === aquariumSpecs.waterType
   )
-  const displayFishDetails = () => {
-    return aquariumFishes.map((fish) => (
-      <li key={fish.id}>
-        {fish.fish_name} : {fish.notes}
-      </li>
-    ))
-  }
 
   const tankRequirement = aquariumFishes.reduce(
     (sum, fish) => sum + fish.average_length_inches * fish.quantity,
     0
   )
+
+  const clearAquariumFishes = () => {
+    console.log(
+      fishes.map((fish) => {
+        updateQuantity(fish.id, 0)
+        return { ...fish, quantity: 0 }
+      })
+    )
+  }
 
   const updateQuantity = (id, math) => {
     const options = {
@@ -58,8 +60,8 @@ const AquariumCalculator = () => {
   }
 
   return (
-    <main className="Aquariumcalculator-container">
-      <h1>Aquarium AquariumCalculator</h1>
+    <main className="aquarium-calculator-container">
+      <h1>Aquarium Calculator</h1>
       <TankForm onSubmit={setAquariumSpecs} />
       <div className="boxes-container">
         <CompatibleFishes
@@ -68,7 +70,13 @@ const AquariumCalculator = () => {
           tankRequirement={tankRequirement}
           aquariumSpecs={aquariumSpecs}
         />
-        <MyAquarium aquariumFishes={aquariumFishes} onClick={updateQuantity} />
+        <MyAquarium
+          aquariumFishes={aquariumFishes}
+          onClick={updateQuantity}
+          tankRequirement={tankRequirement}
+          aquariumSpecs={aquariumSpecs}
+          onClear={clearAquariumFishes}
+        />
       </div>
       <FishDetails aquariumFishes={aquariumFishes} />
     </main>
