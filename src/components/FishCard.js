@@ -6,7 +6,7 @@ const FishCard = ({ fish }) => {
   const [isExpanded, setIsExpanded] = useState(false)
   const [isFavorite, setIsFavorite] = useState(fish.favorite)
 
-  const toggleExpanded = () => {
+  const toggleExpand = () => {
     setIsExpanded(!isExpanded)
   }
 
@@ -40,29 +40,30 @@ const FishCard = ({ fish }) => {
     setIsFavorite(!isFavorite)
   }
   return (
-    <div className="fishTile" onClick={toggleExpanded}>
+    <div className="fishTile">
       <div id={fish_name} className="ui eight wide column">
         <h3>{fish_name}</h3>
-        <div>
-          <img className="fishImg" src={image} alt={fish_name} />
-          <button
-            className={`favorite-button ${isFavorite ? "favorite" : ""}`}
-            onClick={(e) => {
-              e.stopPropagation() // Prevent triggering the expand toggle
-              toggleFavorite()
-            }}
-          >
-            {isFavorite ? "★" : "☆"}
-          </button>
-          {isExpanded && (
-            <div className="additional-info">
-              <p>Minimum Tank Size: {tank_size_gallons} gallons</p>
-              <p>Water Type: {water_type}</p>
-              <p>Temperament: {aggressiveness}</p>
-              <p>Care Requirements: {notes}</p>
-            </div>
-          )}
-        </div>
+        <img className="fishImg" src={image} alt={fish_name} />
+        <button
+          className={`favorite-button ${isFavorite ? "favorite" : ""}`}
+          onClick={(e) => {
+            e.stopPropagation()
+            toggleFavorite()
+          }}
+        >
+          {isFavorite ? "★" : "☆"}
+        </button>
+        <button className="info-button" onClick={toggleExpand}>
+          Click Here for More
+        </button>
+        {isExpanded && (
+          <div className="fish-details">
+            <p>Minimum Tank Size: {tank_size_gallons} gallons</p>
+            <p>Water Type: {water_type}</p>
+            <p>Temperament: {aggressiveness}</p>
+            <p>Care Requirements: {notes}</p>
+          </div>
+        )}
       </div>
     </div>
   )

@@ -9,7 +9,8 @@
       "notes": "Keep in schools for best behavior.",
       "water_type": "Freshwater",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTqexDcjD4cv06_tS_ZrX-pvVRVc6GCMpbTw&s",
-      "favorite": false
+      "favorite": true,
+      "quantity": 1
     },
     {
       "id": "2",
@@ -20,7 +21,8 @@
       "notes": "Provide hiding spots to reduce aggression.",
       "water_type": "Freshwater",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQn1GbeMkct-o3a9Ac2gRm9lYcO7_x6Nkjsww&s",
-      "favorite": true
+      "favorite": true,
+      "quantity": 1
     },
     {
       "id": "3",
@@ -31,7 +33,8 @@
       "notes": "Keep with larger tank mates; prefers tall tanks.",
       "water_type": "Freshwater",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTObv7q-rxn4DtwjH8nQBliwlou4EOglWnvyw&s",
-      "favorite": true
+      "favorite": true,
+      "quantity": 0
     },
     {
       "id": "4",
@@ -42,7 +45,8 @@
       "notes": "Males are colorful; females are larger.",
       "water_type": "Freshwater",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpQwPNyf3j37z0DGn5fULxtZijgTnp_3_HMQ&s",
-      "favorite": false
+      "favorite": true,
+      "quantity": 1
     },
     {
       "id": "5",
@@ -53,7 +57,8 @@
       "notes": "Prefers slightly brackish water conditions.",
       "water_type": "Freshwater",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTs27WdSiA2MPGZ-6jQq3Yca4bez5U9WmMufw&s",
-      "favorite": true
+      "favorite": true,
+      "quantity": 0
     },
     {
       "id": "6",
@@ -64,7 +69,8 @@
       "notes": "Requires warm, soft water and frequent feeding.",
       "water_type": "Freshwater",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRq4cWfpJkgKp9tcibyDJ1hEP6ZvHofz47rJg&s",
-      "favorite": false
+      "favorite": true,
+      "quantity": 0
     },
     {
       "id": "7",
@@ -75,7 +81,8 @@
       "notes": "Keep in groups; bottom-dweller.",
       "water_type": "Freshwater",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7qtvh7xWqK0cDTDh6lmehDLj66Ht0zqpcCw&s",
-      "favorite": false
+      "favorite": false,
+      "quantity": 6
     },
     {
       "id": "8",
@@ -86,7 +93,8 @@
       "notes": "Can be nippy; keep in schools.",
       "water_type": "Freshwater",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzvtS8LOkSEGPbOdMsxuWoysJYiSgWT8ylKg&s",
-      "favorite": false
+      "favorite": false,
+      "quantity": 1
     },
     {
       "id": "9",
@@ -97,7 +105,8 @@
       "notes": "Active swimmers; keep in groups.",
       "water_type": "Freshwater",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTu1wYkR6rtJ4t8-bZLccKPcwVRBGnKv72TTA&s",
-      "favorite": false
+      "favorite": false,
+      "quantity": 0
     },
     {
       "id": "10",
@@ -108,7 +117,8 @@
       "notes": "Good algae eaters; provide hiding spots.",
       "water_type": "Freshwater",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQ1MCp5aX7g_5g4jfjj0uQmgyUWSRYhbYM7Q&s",
-      "favorite": false
+      "favorite": false,
+      "quantity": 0
     },
     {
       "id": "11",
@@ -119,7 +129,8 @@
       "notes": "Keep with peaceful tank mates.",
       "water_type": "Freshwater",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6Ktk6foAc24BJdAOiXoSDdtvBREnXy-F0_A&s",
-      "favorite": false
+      "favorite": false,
+      "quantity": 0
     },
     {
       "id": "12",
@@ -130,7 +141,8 @@
       "notes": "Prefers schools and open swimming space.",
       "water_type": "Freshwater",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMS348d3-iyA7ibJTm2mNZ9MFNF0KbqvCykw&s",
-      "favorite": false
+      "favorite": false,
+      "quantity": 0
     },
     {
       "id": "13",
@@ -141,7 +153,8 @@
       "notes": "Requires cover and peaceful tank mates.",
       "water_type": "Freshwater",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyQ_LyZLf3_MVeCwchRL2FWz3L6q4-udl07g&s",
-      "favorite": false
+      "favorite": false,
+      "quantity": 0
     },
     {
       "id": "16",
@@ -152,7 +165,8 @@
       "notes": "Pairs well with anemones; active swimmers.",
       "water_type": "Saltwater",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZoZgZbPp3F4Zi33acOsIhhRneHaVWeMU8tA&s",
-      "favorite": false
+      "favorite": false,
+      "quantity": 0
     },
     {
       "id": "17",
@@ -163,7 +177,8 @@
       "notes": "Needs large swimming space; can be territorial.",
       "water_type": "Saltwater",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFmwYclbT7phFyrjYGxnnqLi89zdmxvCsuPA&s",
-      "favorite": false
+      "favorite": false,
+      "quantity": 0
     },
     {
       "id": "18",
@@ -174,7 +189,8 @@
       "notes": "Requires a mature tank with plenty of algae.",
       "water_type": "Saltwater",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRfwD_j_RC4kfjbZbVSeRUYGzRMpwmAPtyJw&s",
-      "favorite": false
+      "favorite": false,
+      "quantity": 0
     },
     {
       "id": "19",
@@ -185,7 +201,8 @@
       "notes": "Jumpers; use a lid on the tank.",
       "water_type": "Saltwater",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4q-x2ehiWVDE4IhoMtkIJuLFvE1Hsk3WdVA&s",
-      "favorite": false
+      "favorite": false,
+      "quantity": 0
     },
     {
       "id": "20",
@@ -196,7 +213,8 @@
       "notes": "Needs a mature tank with a lot of live rock.",
       "water_type": "Saltwater",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdGZlfv7DtAjuq8LUBbOMpoW0dyghhYECUcg&s",
-      "favorite": false
+      "favorite": false,
+      "quantity": 0
     },
     {
       "id": "21",
@@ -207,7 +225,8 @@
       "notes": "Peaceful but may be territorial with similar fish.",
       "water_type": "Saltwater",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTU3by0RiaomsMoSnP5CAtFfFjpmxC-nK1X7w&s",
-      "favorite": false
+      "favorite": false,
+      "quantity": 0
     },
     {
       "id": "22",
@@ -218,7 +237,8 @@
       "notes": "Likes to hide in caves; peaceful community fish.",
       "water_type": "Saltwater",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRL_EGR-sT7i7xRThe3rjpyGcLg18fImT9wfA&s",
-      "favorite": false
+      "favorite": false,
+      "quantity": 0
     },
     {
       "id": "23",
@@ -229,7 +249,8 @@
       "notes": "Needs a large tank with hiding spots; can be aggressive.",
       "water_type": "Saltwater",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_N2zSPZM71r0NdkoUDbBmRFxfOf_QtOUoWQ&s",
-      "favorite": false
+      "favorite": false,
+      "quantity": 0
     },
     {
       "id": "24",
@@ -240,7 +261,8 @@
       "notes": "Requires a large tank with excellent water quality.",
       "water_type": "Saltwater",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNA86XYJAJsDpDVUInr2jhsCBMQFWaj72L2w&s",
-      "favorite": false
+      "favorite": false,
+      "quantity": 0
     },
     {
       "id": "25",
@@ -251,7 +273,8 @@
       "notes": "Peaceful schooling fish; prefers dim lighting.",
       "water_type": "Saltwater",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFk0UUTUMMPb9GXFW6Rhz_d_PxBZnwdOK1QA&s",
-      "favorite": false
+      "favorite": false,
+      "quantity": 0
     },
     {
       "id": "26",
@@ -262,7 +285,8 @@
       "notes": "Colorful and peaceful; keep in groups.",
       "water_type": "Freshwater",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuO4dFGynOLTAxvky8jvY1mBGz47_NNYvftQ&s",
-      "favorite": false
+      "favorite": false,
+      "quantity": 0
     },
     {
       "id": "27",
@@ -273,7 +297,8 @@
       "notes": "Schooling fish; keep in groups.",
       "water_type": "Freshwater",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREHRJwApTsO2nup01zZPJDBgiPW1H0rS4D8A&s",
-      "favorite": true
+      "favorite": false,
+      "quantity": 0
     },
     {
       "id": "28",
@@ -284,7 +309,8 @@
       "notes": "Vibrant colors; choose tank mates carefully.",
       "water_type": "Freshwater",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgIqOmFxd4R_U2O3NwYbxyV_3y90YjarY-xA&s",
-      "favorite": false
+      "favorite": false,
+      "quantity": 0
     },
     {
       "id": "30",
@@ -295,7 +321,8 @@
       "notes": "Elegant and peaceful; prefers planted tanks.",
       "water_type": "Freshwater",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrAJa8IX6KdYBwINE4mLPBvjtjWsEUEE_0GQ&s",
-      "favorite": false
+      "favorite": false,
+      "quantity": 0
     },
     {
       "id": "31",
@@ -306,7 +333,8 @@
       "notes": "Bottom-dweller; keep in groups.",
       "water_type": "Freshwater",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYkQDYXvWFYlnw3tC3ED4iSa4slR0Pl8w_aw&s",
-      "favorite": false
+      "favorite": false,
+      "quantity": 0
     },
     {
       "id": "32",
@@ -317,7 +345,8 @@
       "notes": "Active and colorful; keep in schools.",
       "water_type": "Freshwater",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVmNFDILEpUFDVovUg-edx0TYhZplBGIMEEQ&s",
-      "favorite": false
+      "favorite": false,
+      "quantity": 0
     },
     {
       "id": "33",
@@ -328,7 +357,8 @@
       "notes": "Coldwater fish; needs adequate space.",
       "water_type": "Freshwater",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTl61T6Ay3xEBZG3k4qugX1n9FEUqM5yLaWVg&s",
-      "favorite": false
+      "favorite": false,
+      "quantity": 0
     },
     {
       "id": "34",
@@ -339,7 +369,8 @@
       "notes": "Large and territorial; needs large tank.",
       "water_type": "Freshwater",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtK6fNOvnj6oKiugaOmocERNh8mX33CaCGrQ&s",
-      "favorite": true
+      "favorite": false,
+      "quantity": 0
     },
     {
       "id": "35",
@@ -350,7 +381,8 @@
       "notes": "Large and active; needs a spacious tank.",
       "water_type": "Freshwater",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8eC_JhelSzg6qHFbeUA8BFCZs_h9phhR2MQ&s",
-      "favorite": false
+      "favorite": false,
+      "quantity": 0
     },
     {
       "id": "36",
@@ -361,7 +393,8 @@
       "notes": "Schooling fish; prefers planted tanks.",
       "water_type": "Freshwater",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCk2hob-O8ntTO8rRzJAtYf4E_yRdPl_2MJA&s",
-      "favorite": false
+      "favorite": false,
+      "quantity": 0
     },
     {
       "id": "37",
@@ -372,7 +405,8 @@
       "notes": "Colorful and peaceful; prefers warm water.",
       "water_type": "Freshwater",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdfxGXU4XbcNuLWR-IEuN73x_3YFdEzJAUig&s",
-      "favorite": true
+      "favorite": false,
+      "quantity": 0
     },
     {
       "id": "38",
@@ -383,7 +417,8 @@
       "notes": "Easy to care for; livebearer fish.",
       "water_type": "Freshwater",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqbh9AJ152-BkONoAuZYhZGpVM7KBX0DJqkQ&s",
-      "favorite": false
+      "favorite": false,
+      "quantity": 0
     },
     {
       "id": "39",
@@ -394,7 +429,8 @@
       "notes": "Active swimmer; keep with other semi-aggressive fish.",
       "water_type": "Saltwater",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGiEbgFJv5vtXS0zc_cvaJjxCNsdCsA9Z5dw&s",
-      "favorite": false
+      "favorite": false,
+      "quantity": 0
     },
     {
       "id": "40",
@@ -405,7 +441,8 @@
       "notes": "Forms symbiotic relationships with pistol shrimp.",
       "water_type": "Saltwater",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhoz0ovgWH2yDPICQ9bGYEj3nHrZdm3m0cSQ&s",
-      "favorite": false
+      "favorite": false,
+      "quantity": 0
     },
     {
       "id": "41",
@@ -416,7 +453,8 @@
       "notes": "Challenging to keep; needs plenty of swimming space.",
       "water_type": "Saltwater",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5-6mEAEabWATP91hcKCN_0Ff-ZfW_kMuJvw&s",
-      "favorite": false
+      "favorite": false,
+      "quantity": 0
     },
     {
       "id": "42",
@@ -427,7 +465,8 @@
       "notes": "Colorful and active; may be territorial.",
       "water_type": "Saltwater",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTql6hmyYTzU4FA4xg-0ZIhaC_QxkDluHy-og&s",
-      "favorite": false
+      "favorite": false,
+      "quantity": 0
     },
     {
       "id": "43",
@@ -438,7 +477,8 @@
       "notes": "Needs large tank with plenty of hiding places.",
       "water_type": "Saltwater",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_FJDWoi-SkZbVZqpqd5tJEarCBd04FDK7eQ&s",
-      "favorite": false
+      "favorite": false,
+      "quantity": 0
     },
     {
       "id": "44",
@@ -449,7 +489,8 @@
       "notes": "Requires a large tank with stable water parameters.",
       "water_type": "Saltwater",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHGYMRnxbuSQJGf2XNy6cMmKoJWmI0mJBMWQ&s",
-      "favorite": false
+      "favorite": false,
+      "quantity": 0
     },
     {
       "id": "45",
@@ -460,7 +501,8 @@
       "notes": "Hardy; prefers established reef tanks.",
       "water_type": "Saltwater",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOmUGfp3843WrApeTPJQ5d-bZkeh83Rx3tfQ&s",
-      "favorite": true
+      "favorite": false,
+      "quantity": 0
     },
     {
       "id": "46",
@@ -471,7 +513,8 @@
       "notes": "Schooling fish; keep in groups.",
       "water_type": "Saltwater",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQru_lMscgUEeYK23vv9tUW4PzZlJ5q0CYjdA&s",
-      "favorite": false
+      "favorite": false,
+      "quantity": 0
     },
     {
       "id": "47",
@@ -482,7 +525,8 @@
       "notes": "Algae eater; needs plenty of rockwork to graze.",
       "water_type": "Saltwater",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPkDjgIORI9hEKD6K2ZkXjthQfbPy0YtFiJA&s",
-      "favorite": false
+      "favorite": false,
+      "quantity": 0
     },
     {
       "id": "48",
@@ -493,7 +537,8 @@
       "notes": "Pairs well with anemones; hardy and colorful.",
       "water_type": "Saltwater",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGpB15trAuTtixX9U8OD-gH8V74D6z2Idz8w&s",
-      "favorite": false
+      "favorite": false,
+      "quantity": 0
     },
     {
       "id": "49",
@@ -504,7 +549,8 @@
       "notes": "Schooling fish; add in odd numbers to reduce aggression.",
       "water_type": "Saltwater",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9iTnXEIs5mkZpwwPJxgaVMBcGuJXenQak0w&s",
-      "favorite": false
+      "favorite": false,
+      "quantity": 0
     },
     {
       "id": "50",
@@ -515,7 +561,8 @@
       "notes": "Excellent algae eater; needs a large tank with hiding spots.",
       "water_type": "Saltwater",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTe6mqAnQ2KAJS4blW906r16JZELtpWTLQzHQ&s",
-      "favorite": false
+      "favorite": false,
+      "quantity": 0
     },
     {
       "id": "51",
@@ -526,7 +573,20 @@
       "notes": "Needs a large tank with plenty of swimming space.",
       "water_type": "Saltwater",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-6cdaQ7AxNkOzvBo-l0oJjbOGu5KWQJ_ujQ&s",
-      "favorite": false
+      "favorite": false,
+      "quantity": 0
+    },
+    {
+      "id": "b2aa",
+      "fish_name": "GGGGG",
+      "tank_size_gallons": "56",
+      "average_length_inches": "46",
+      "aggressiveness": "Community",
+      "notes": "dwadwadwad",
+      "water_type": "Freshwater",
+      "image": "dwadwa",
+      "favorite": false,
+      "quantity": 0
     }
   ]
 }
