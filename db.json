@@ -9,8 +9,8 @@
       "notes": "Keep in schools for best behavior.",
       "water_type": "Freshwater",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTqexDcjD4cv06_tS_ZrX-pvVRVc6GCMpbTw&s",
-      "favorite": true,
-      "quantity": 1
+      "favorite": false,
+      "quantity": 0
     },
     {
       "id": "2",
@@ -21,8 +21,8 @@
       "notes": "Provide hiding spots to reduce aggression.",
       "water_type": "Freshwater",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQn1GbeMkct-o3a9Ac2gRm9lYcO7_x6Nkjsww&s",
-      "favorite": true,
-      "quantity": 1
+      "favorite": false,
+      "quantity": 0
     },
     {
       "id": "3",
@@ -33,7 +33,7 @@
       "notes": "Keep with larger tank mates; prefers tall tanks.",
       "water_type": "Freshwater",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTObv7q-rxn4DtwjH8nQBliwlou4EOglWnvyw&s",
-      "favorite": true,
+      "favorite": false,
       "quantity": 0
     },
     {
@@ -45,8 +45,8 @@
       "notes": "Males are colorful; females are larger.",
       "water_type": "Freshwater",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpQwPNyf3j37z0DGn5fULxtZijgTnp_3_HMQ&s",
-      "favorite": true,
-      "quantity": 1
+      "favorite": false,
+      "quantity": 5
     },
     {
       "id": "5",
@@ -57,7 +57,7 @@
       "notes": "Prefers slightly brackish water conditions.",
       "water_type": "Freshwater",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTs27WdSiA2MPGZ-6jQq3Yca4bez5U9WmMufw&s",
-      "favorite": true,
+      "favorite": false,
       "quantity": 0
     },
     {
@@ -69,7 +69,7 @@
       "notes": "Requires warm, soft water and frequent feeding.",
       "water_type": "Freshwater",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRq4cWfpJkgKp9tcibyDJ1hEP6ZvHofz47rJg&s",
-      "favorite": true,
+      "favorite": false,
       "quantity": 0
     },
     {
@@ -82,7 +82,7 @@
       "water_type": "Freshwater",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7qtvh7xWqK0cDTDh6lmehDLj66Ht0zqpcCw&s",
       "favorite": false,
-      "quantity": 6
+      "quantity": 0
     },
     {
       "id": "8",
@@ -94,7 +94,7 @@
       "water_type": "Freshwater",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzvtS8LOkSEGPbOdMsxuWoysJYiSgWT8ylKg&s",
       "favorite": false,
-      "quantity": 1
+      "quantity": 0
     },
     {
       "id": "9",
@@ -286,7 +286,7 @@
       "water_type": "Freshwater",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuO4dFGynOLTAxvky8jvY1mBGz47_NNYvftQ&s",
       "favorite": false,
-      "quantity": 0
+      "quantity": 3
     },
     {
       "id": "27",

@@ -46,10 +46,7 @@ const FishCard = ({ fish }) => {
         <img className="fishImg" src={image} alt={fish_name} />
         <button
           className={`favorite-button ${isFavorite ? "favorite" : ""}`}
-          onClick={(e) => {
-            e.stopPropagation()
-            toggleFavorite()
-          }}
+          onClick={toggleFavorite}
         >
           {isFavorite ? "★" : "☆"}
         </button>
