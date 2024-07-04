@@ -14,7 +14,7 @@ The Fish Tank Stocking App is a comprehensive tool designed to help aquarium ent
 
 ## Installation
 
-1. Clone the repository to your local machine: `git clone <repository-url>`
+1. Clone the repository to your local machine: `git clone git@github.com:Lsimmons98/aquarium.git`
 2. Navigate to the project directory: `cd project-2`
 3. Install the necessary dependencies: `npm install`
 
