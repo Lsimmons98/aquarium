@@ -30,15 +30,14 @@ const FishCard = ({ fish }) => {
         favorite: !isFavorite,
       }),
     }
-    fetch(`http://localhost:3001/fishes/${fish.id}`, options).then((resp) =>
-      resp.json()
-    )
+    fetch(`http://localhost:3001/fishes/${fish.id}`, options)
   }
 
   const toggleFavorite = () => {
     addOrRemoveFavorite()
     setIsFavorite(!isFavorite)
   }
+
   return (
     <div className="fishTile">
       <div id={fish_name} className="ui eight wide column">
@@ -51,7 +50,7 @@ const FishCard = ({ fish }) => {
           {isFavorite ? "★" : "☆"}
         </button>
         <button className="info-button" onClick={toggleExpand}>
-          Click Here for More
+          Click Here for More Info
         </button>
         {isExpanded && (
           <div className="fish-details">

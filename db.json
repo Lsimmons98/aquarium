@@ -45,7 +45,7 @@
       "notes": "Males are colorful; females are larger.",
       "water_type": "Freshwater",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpQwPNyf3j37z0DGn5fULxtZijgTnp_3_HMQ&s",
-      "favorite": false,
+      "favorite": true,
       "quantity": 0
     },
     {
@@ -69,7 +69,7 @@
       "notes": "Requires warm, soft water and frequent feeding.",
       "water_type": "Freshwater",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRq4cWfpJkgKp9tcibyDJ1hEP6ZvHofz47rJg&s",
-      "favorite": true,
+      "favorite": false,
       "quantity": 0
     },
     {
