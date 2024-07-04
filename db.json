@@ -585,7 +585,8 @@
       "notes": "Fish",
       "water_type": "Freshwater",
       "image": "Fish",
-      "favorite": false
+      "favorite": false,
+      "quantity": 0
     }
   ]
 }
