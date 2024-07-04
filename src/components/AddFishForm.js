@@ -1,7 +1,7 @@
 import React, { useState } from "react"
 import "../style.css"
 
-const AddFish = ({ handleAddFish }) => {
+const AddFish = ({ onAddFish }) => {
   const [showForm, setShowForm] = useState(false)
   const [fishData, setFishData] = useState({
     fish_name: "",
@@ -30,7 +30,7 @@ const AddFish = ({ handleAddFish }) => {
 
   const handleSubmit = (e) => {
     e.preventDefault()
-    handleAddFish(fishData)
+    onAddFish(fishData)
     setFishData({
       fish_name: "",
       tank_size_gallons: "",

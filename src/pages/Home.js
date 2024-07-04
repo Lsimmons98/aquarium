@@ -37,7 +37,7 @@ function Home() {
       </header>
       <main>
         <h1>Home</h1>
-        <AddFishForm handleAddFish={handleAddFish} />
+        <AddFishForm onAddFish={handleAddFish} />
         <FishList fishes={fishes} />
       </main>
     </>
