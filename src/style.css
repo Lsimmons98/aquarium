@@ -5,11 +5,6 @@ body {
   font-family: sans-serif;
 }
 
-.App {
-  margin: 0% 5% 0% 5%;
-  text-align: center;
-}
-
 .navWrapper {
   margin-bottom: 2%;
 }
@@ -70,9 +65,10 @@ ul {
 }
 
 .fishTile {
-  display: inline;
-  background-repeat: no-repeat;
-  background-position: center 90%;
+  background-color: #7675d9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   float: left;
   margin: 2%;
   padding: 1%;
@@ -141,7 +137,7 @@ ul {
 }
 
 .fishImg {
-  width: 400px;
+  width: 375px;
   height: 280px;
   object-fit: cover;
   aspect-ratio: 1.5;
@@ -151,4 +147,129 @@ ul {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   gap: 20px;
+}
+
+.nav-link {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 100px;
+  padding: 5px;
+  margin: 0 6px 6px;
+  background: blue;
+  text-decoration: none;
+  text-align: center;
+  font-size: min(10vw, 15px);
+  color: white;
+}
+
+.active {
+  color: rgb(43, 237, 13);
+}
+
+.favorite-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 36px;
+  padding: 10px;
+  color: rgb(9, 8, 8);
+  transition: color 0.3s;
+}
+
+.favorite-button.favorite {
+  color: gold;
+}
+
+.info-button {
+  top: 10px;
+  right: 10px;
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.info-button:hover {
+  background-color: #0056b3;
+}
+
+.calculator-container {
+  padding: 20px;
+}
+
+.boxes-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.compatible-fish-box {
+  width: 45%;
+  padding: 20px;
+  border: 5px solid #1418eb;
+  border-radius: 5px;
+  background-color: #a4e7ff;
+}
+
+.compatible-fish-box h2,
+.my-aquarium-box h2 {
+  margin-top: 0;
+}
+
+.compatible-fish-box ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.compatible-fish-box ul li {
+  margin-bottom: 10px;
+}
+
+.add-fish-container {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.toggle-form-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  outline: none;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  width: 75%;
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #1adde0;
+  border-radius: 4px;
+  box-sizing: border-box;
+  outline: none;
+}
+
+.fish-details-box {
+  width: 90%;
+  padding: 10px;
+  border: 5px solid #1418eb;
+  border-radius: 4px;
+  background-color: #a4e7ff;
+  margin-top: 20px;
 }

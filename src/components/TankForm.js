@@ -1,32 +1,32 @@
 import React, { useState } from "react"
 import "../style.css"
 
-function TankForm({ onTankSpecsChange }) {
-  const [gallons, setGallons] = useState(0)
-  const [waterType, setWaterType] = useState("")
+function TankForm({ onSubmit }) {
+  const [tankSpecs, setTankSpecs] = useState({
+    gallons: 0,
+    waterType: "Freshwater",
+  })
 
-  const handleGallonsChange = (e) => {
-    setGallons(e.target.value)
+  const onChange = ({ target: { name, value } }) => {
+    setTankSpecs({ ...tankSpecs, [name]: value })
   }
 
-  const handleWaterTypeChange = (e) => {
-    setWaterType(e.target.value)
-  }
+  const sanitizedData = { ...tankSpecs, gallons: Number(tankSpecs.gallons) }
 
   const handleSubmit = (e) => {
     e.preventDefault()
-    onTankSpecsChange({ gallons: Number(gallons), waterType })
+    onSubmit(sanitizedData)
   }
 
   return (
     <form onSubmit={handleSubmit}>
       <label>
-        Gallons:
-        <input type="number" value={gallons} onChange={handleGallonsChange} />
+        Tank Size (Gallons):
+        <input type="number" name="gallons" onChange={onChange} />
       </label>
       <label>
         Water Type:
-        <select value={waterType} onChange={handleWaterTypeChange}>
+        <select name="waterType" onChange={onChange}>
           <option value="">Select</option>
           <option value="Freshwater">Freshwater</option>
           <option value="Saltwater">Saltwater</option>
