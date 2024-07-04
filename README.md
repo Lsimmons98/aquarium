@@ -11,6 +11,7 @@ The Fish Tank Stocking App is a comprehensive tool designed to help aquarium ent
 - **Aquarium Calculator**: Allows users to input the size of their tank and the type of water (salt or fresh). The calculator shows a list of compatible fish from the database.
 - **Stocking Limits**: The app prevents users from overstocking their tanks by calculating and displaying the available space in the aquarium.
 - **Fish Details**: Provides specific details about each type of fish added to the aquarium.
+- **Add Fish Button**: Brings up a form to add a new fish to the database.
 
 ## Installation
 
@@ -29,6 +30,7 @@ The Fish Tank Stocking App is a comprehensive tool designed to help aquarium ent
 2. **Favorites Tab**: View and manage your list of favorite fish.
 3. **Aquarium Calculator**: Enter your tank size and water type to get a list of compatible fish. Add fish to your aquarium and monitor the stocking level.
 4. **Aquarium Details**: View detailed information about the fish in your aquarium, including their care requirements and compatibility.
+5. **Add Fish**: Use the "Add Fish" button to bring up a form where you can add new fish to the database.
 
 ## Technologies Used
 
