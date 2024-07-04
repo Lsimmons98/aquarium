@@ -2,7 +2,7 @@ import { useState, useEffect } from "react"
 import FishDetails from "./FishDetails"
 import MyAquarium from "./MyAquarium"
 import TankForm from "../TankForm"
-import CompatibleFishes from "./CompatibleFish"
+import CompatibleFishes from "./CompatibleFishes"
 
 import "../../style.css"
 
@@ -37,12 +37,10 @@ const AquariumCalculator = () => {
   )
 
   const clearAquariumFishes = () => {
-    console.log(
-      fishes.map((fish) => {
-        updateQuantity(fish.id, 0)
-        return { ...fish, quantity: 0 }
-      })
-    )
+    fishes.map((fish) => {
+      updateQuantity(fish.id, 0)
+      return { ...fish, quantity: 0 }
+    })
   }
 
   const updateQuantity = (id, math) => {

@@ -9,7 +9,7 @@
       "notes": "Keep in schools for best behavior.",
       "water_type": "Freshwater",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTqexDcjD4cv06_tS_ZrX-pvVRVc6GCMpbTw&s",
-      "favorite": true,
+      "favorite": false,
       "quantity": 0
     },
     {
@@ -21,7 +21,7 @@
       "notes": "Provide hiding spots to reduce aggression.",
       "water_type": "Freshwater",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQn1GbeMkct-o3a9Ac2gRm9lYcO7_x6Nkjsww&s",
-      "favorite": true,
+      "favorite": false,
       "quantity": 0
     },
     {
@@ -69,7 +69,7 @@
       "notes": "Requires warm, soft water and frequent feeding.",
       "water_type": "Freshwater",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRq4cWfpJkgKp9tcibyDJ1hEP6ZvHofz47rJg&s",
-      "favorite": false,
+      "favorite": true,
       "quantity": 0
     },
     {
@@ -573,18 +573,6 @@
       "notes": "Needs a large tank with plenty of swimming space.",
       "water_type": "Saltwater",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-6cdaQ7AxNkOzvBo-l0oJjbOGu5KWQJ_ujQ&s",
-      "favorite": false,
-      "quantity": 0
-    },
-    {
-      "id": "b2aa",
-      "fish_name": "GGGGG",
-      "tank_size_gallons": "56",
-      "average_length_inches": "46",
-      "aggressiveness": "Community",
-      "notes": "dwadwadwad",
-      "water_type": "Freshwater",
-      "image": "dwadwa",
       "favorite": false,
       "quantity": 0
     }
