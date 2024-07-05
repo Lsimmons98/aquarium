@@ -22,7 +22,7 @@
       "water_type": "Freshwater",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQn1GbeMkct-o3a9Ac2gRm9lYcO7_x6Nkjsww&s",
       "favorite": false,
-      "quantity": 1
+      "quantity": 0
     },
     {
       "id": "3",
@@ -33,8 +33,8 @@
       "notes": "Keep with larger tank mates; prefers tall tanks.",
       "water_type": "Freshwater",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTObv7q-rxn4DtwjH8nQBliwlou4EOglWnvyw&s",
-      "favorite": false,
-      "quantity": 1
+      "favorite": true,
+      "quantity": 0
     },
     {
       "id": "4",
@@ -45,8 +45,8 @@
       "notes": "Males are colorful; females are larger.",
       "water_type": "Freshwater",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpQwPNyf3j37z0DGn5fULxtZijgTnp_3_HMQ&s",
-      "favorite": true,
-      "quantity": 1
+      "favorite": false,
+      "quantity": 0
     },
     {
       "id": "5",
@@ -58,7 +58,7 @@
       "water_type": "Freshwater",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTs27WdSiA2MPGZ-6jQq3Yca4bez5U9WmMufw&s",
       "favorite": false,
-      "quantity": 1
+      "quantity": 0
     },
     {
       "id": "6",
@@ -70,7 +70,7 @@
       "water_type": "Freshwater",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRq4cWfpJkgKp9tcibyDJ1hEP6ZvHofz47rJg&s",
       "favorite": false,
-      "quantity": 1
+      "quantity": 0
     },
     {
       "id": "7",
@@ -82,7 +82,7 @@
       "water_type": "Freshwater",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7qtvh7xWqK0cDTDh6lmehDLj66Ht0zqpcCw&s",
       "favorite": false,
-      "quantity": 1
+      "quantity": 0
     },
     {
       "id": "8",
@@ -94,7 +94,7 @@
       "water_type": "Freshwater",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzvtS8LOkSEGPbOdMsxuWoysJYiSgWT8ylKg&s",
       "favorite": false,
-      "quantity": 1
+      "quantity": 0
     },
     {
       "id": "9",
@@ -106,7 +106,7 @@
       "water_type": "Freshwater",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTu1wYkR6rtJ4t8-bZLccKPcwVRBGnKv72TTA&s",
       "favorite": false,
-      "quantity": 1
+      "quantity": 0
     },
     {
       "id": "10",
@@ -118,7 +118,7 @@
       "water_type": "Freshwater",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQ1MCp5aX7g_5g4jfjj0uQmgyUWSRYhbYM7Q&s",
       "favorite": false,
-      "quantity": 1
+      "quantity": 0
     },
     {
       "id": "11",
@@ -130,7 +130,7 @@
       "water_type": "Freshwater",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6Ktk6foAc24BJdAOiXoSDdtvBREnXy-F0_A&s",
       "favorite": false,
-      "quantity": 1
+      "quantity": 0
     },
     {
       "id": "12",
@@ -310,7 +310,7 @@
       "water_type": "Freshwater",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgIqOmFxd4R_U2O3NwYbxyV_3y90YjarY-xA&s",
       "favorite": false,
-      "quantity": 1
+      "quantity": 0
     },
     {
       "id": "30",
@@ -573,18 +573,6 @@
       "notes": "Needs a large tank with plenty of swimming space.",
       "water_type": "Saltwater",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-6cdaQ7AxNkOzvBo-l0oJjbOGu5KWQJ_ujQ&s",
-      "favorite": false,
-      "quantity": 0
-    },
-    {
-      "id": "fb32",
-      "fish_name": "Fish",
-      "tank_size_gallons": "50",
-      "average_length_inches": "45",
-      "aggressiveness": "Semi-aggressive",
-      "notes": "Fish",
-      "water_type": "Freshwater",
-      "image": "Fish",
       "favorite": false,
       "quantity": 0
     }

@@ -5,25 +5,28 @@ import "../style.css"
 
 function Favorites() {
   const [fishes, setFishes] = useState([])
+  const [fetchTrigger, setFetchTrigger] = useState(false)
 
-  useEffect(() => {
+  const fetchData = () => setFetchTrigger(!fetchTrigger)
+
+  const fetchFishes = () => {
     fetch("http://localhost:3001/fishes")
       .then((resp) => resp.json())
       .then((data) => {
         setFishes(data)
       })
-  }, [])
+  }
+
+  useEffect(fetchFishes, [fetchData])
 
   const favoriteFishes = fishes.filter((fish) => fish.favorite === true)
 
   return (
     <>
-      <header>
-        <NavBar />
-      </header>
+      <NavBar />
       <main>
         <h1>Favorites</h1>
-        {<FishList fishes={favoriteFishes} />}
+        {<FishList fishes={favoriteFishes} fetchData={fetchData} />}
       </main>
     </>
   )

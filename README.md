@@ -21,7 +21,7 @@ The Fish Tank Stocking App is a comprehensive tool designed to help aquarium ent
 
 ## Running the App
 
-1. Start the JSON server: `json-server --watch db.json --port 3001`
+1. Start the JSON server: `npm run server`
 2. Start the React application: `npm start`
 
 ## Usage
