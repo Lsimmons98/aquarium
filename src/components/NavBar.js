@@ -3,17 +3,19 @@ import "../style.css"
 
 function NavBar() {
   return (
-    <nav>
-      <NavLink to="/" className="nav-link">
-        Home
-      </NavLink>
-      <NavLink to="/calculator" className="nav-link">
-        Calculator
-      </NavLink>
-      <NavLink to="/favorites" className="nav-link">
-        Favorites
-      </NavLink>
-    </nav>
+    <header>
+      <nav>
+        <NavLink to="/" className="nav-link">
+          Home
+        </NavLink>
+        <NavLink to="/calculator" className="nav-link">
+          Calculator
+        </NavLink>
+        <NavLink to="/favorites" className="nav-link">
+          Favorites
+        </NavLink>
+      </nav>
+    </header>
   )
 }
 

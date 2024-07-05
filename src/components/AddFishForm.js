@@ -21,13 +21,6 @@ const AddFish = ({ onAddFish }) => {
     })
   }
 
-  const handleCheckboxChange = (e) => {
-    setFishData({
-      ...fishData,
-      favorite: e.target.checked,
-    })
-  }
-
   const handleSubmit = (e) => {
     e.preventDefault()
     onAddFish(fishData)

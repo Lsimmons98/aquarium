@@ -33,7 +33,7 @@
       "notes": "Keep with larger tank mates; prefers tall tanks.",
       "water_type": "Freshwater",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTObv7q-rxn4DtwjH8nQBliwlou4EOglWnvyw&s",
-      "favorite": false,
+      "favorite": true,
       "quantity": 0
     },
     {
@@ -45,7 +45,7 @@
       "notes": "Males are colorful; females are larger.",
       "water_type": "Freshwater",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpQwPNyf3j37z0DGn5fULxtZijgTnp_3_HMQ&s",
-      "favorite": true,
+      "favorite": false,
       "quantity": 0
     },
     {
@@ -57,7 +57,7 @@
       "notes": "Prefers slightly brackish water conditions.",
       "water_type": "Freshwater",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTs27WdSiA2MPGZ-6jQq3Yca4bez5U9WmMufw&s",
-      "favorite": true,
+      "favorite": false,
       "quantity": 0
     },
     {

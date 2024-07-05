@@ -2,7 +2,7 @@ import React, { useState } from "react"
 import PropTypes from "prop-types"
 import "../style.css"
 
-const FishCard = ({ fish }) => {
+const FishCard = ({ fish, fetchData }) => {
   const [isExpanded, setIsExpanded] = useState(false)
   const [isFavorite, setIsFavorite] = useState(fish.favorite)
 
@@ -36,6 +36,7 @@ const FishCard = ({ fish }) => {
   const toggleFavorite = () => {
     addOrRemoveFavorite()
     setIsFavorite(!isFavorite)
+    fetchData && fetchData()
   }
 
   return (

@@ -43,7 +43,7 @@ const AquariumCalculator = () => {
     })
   }
 
-  const updateQuantity = (id, math) => {
+  const updateQuantity = (id, newQuantity) => {
     const options = {
       method: "PATCH",
       headers: {
@@ -51,7 +51,7 @@ const AquariumCalculator = () => {
         Accept: "application/json",
       },
       body: JSON.stringify({
-        quantity: math,
+        quantity: newQuantity,
       }),
     }
     fetch(`http://localhost:3001/fishes/${id}`, options).then(fetchFishes)

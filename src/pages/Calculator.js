@@ -8,9 +8,7 @@ import "../style.css"
 const Calculator = () => {
   return (
     <>
-      <header>
-        <NavBar />
-      </header>
+      <NavBar />
       <AquariumCalculator />
     </>
   )

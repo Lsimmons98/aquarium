@@ -14,7 +14,7 @@ function Home() {
       })
   }
 
-  useEffect(fetchFishes, [fishes])
+  useEffect(fetchFishes, [])
 
   const handleAddFish = (fish) => {
     const options = {
@@ -32,9 +32,7 @@ function Home() {
 
   return (
     <>
-      <header>
-        <NavBar />
-      </header>
+      <NavBar />
       <main>
         <h1>Home</h1>
         <AddFishForm onAddFish={handleAddFish} />
