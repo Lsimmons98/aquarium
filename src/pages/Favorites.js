@@ -17,7 +17,7 @@ function Favorites() {
       })
   }
 
-  useEffect(fetchFishes, [fetchData])
+  useEffect(fetchFishes, [])
 
   const favoriteFishes = fishes.filter((fish) => fish.favorite === true)
 
