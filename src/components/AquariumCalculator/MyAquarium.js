@@ -13,7 +13,7 @@ function MyAquarium({
       <li key={fish.id}>
         {fish.fish_name} - {fish.quantity}...
         <button
-          onClick={() => onClick(fish.id, fish.quantity - 1)}
+          onClick={() => onClick(fish.id, Math.max(fish.quantity - 1, 0))}
           name="removeFish"
         >
           {" "}
