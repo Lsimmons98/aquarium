@@ -1,10 +1,16 @@
 import React from "react"
 import FishCard from "./FishCard"
 import "../style.css"
+import { Fish } from "../types"
 
-function FishList({ fishes, fetchData }) {
+interface FishListProps {
+  fishes: Fish[]
+  fetchData: () => void
+}
+
+function FishList({ fishes, fetchData }: FishListProps) {
   const displayFishes = () =>
-    fishes.map((fish) => (
+    fishes.map((fish: Fish) => (
       <FishCard key={fish.id} fish={fish} fetchData={fetchData} />
     ))
 

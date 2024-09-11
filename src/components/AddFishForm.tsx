@@ -1,12 +1,17 @@
 import React, { useState } from "react"
+import { FishData } from "../types"
 import "../style.css"
 
-const AddFish = ({ onAddFish }) => {
+const AddFish = ({
+  onAddFish,
+}: {
+  onAddFish: (fishData: FishData) => void
+}) => {
   const [showForm, setShowForm] = useState(false)
   const [fishData, setFishData] = useState({
     fish_name: "",
-    tank_size_gallons: "",
-    average_length_inches: "",
+    tank_size_gallons: 0,
+    average_length_inches: 0,
     aggressiveness: "",
     notes: "",
     water_type: "",
@@ -14,20 +19,32 @@ const AddFish = ({ onAddFish }) => {
     favorite: false,
   })
 
-  const handleChange = ({ target: { name, value } }) => {
+  const handleChange = ({
+    target: { name, value },
+  }: React.ChangeEvent<
+    HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement
+  >) => {
     setFishData({
       ...fishData,
       [name]: value,
     })
   }
 
-  const handleSubmit = (e) => {
+  // const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+  //   const { name, value } = event.target
+  //   setFishData({
+  //     ...fishData,
+  //     [name]: value,
+  //   })
+  // }
+
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault()
     onAddFish(fishData)
     setFishData({
       fish_name: "",
-      tank_size_gallons: "",
-      average_length_inches: "",
+      tank_size_gallons: 0,
+      average_length_inches: 0,
       aggressiveness: "",
       notes: "",
       water_type: "",

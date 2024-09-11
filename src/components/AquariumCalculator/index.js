@@ -56,7 +56,6 @@ const AquariumCalculator = () => {
     }
     fetch(`http://localhost:3001/fishes/${id}`, options).then(fetchFishes)
   }
-
   return (
     <main className="aquarium-calculator-container">
       <h1>Aquarium Calculator</h1>

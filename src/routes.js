@@ -1,4 +1,3 @@
-import React from "react"
 import Home from "./pages/Home"
 import Calculator from "./pages/Calculator"
 import Favorites from "./pages/Favorites"

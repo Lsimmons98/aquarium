@@ -33,7 +33,7 @@
       "notes": "Keep with larger tank mates; prefers tall tanks.",
       "water_type": "Freshwater",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTObv7q-rxn4DtwjH8nQBliwlou4EOglWnvyw&s",
-      "favorite": true,
+      "favorite": false,
       "quantity": 0
     },
     {
@@ -575,6 +575,17 @@
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-6cdaQ7AxNkOzvBo-l0oJjbOGu5KWQJ_ujQ&s",
       "favorite": false,
       "quantity": 0
+    },
+    {
+      "id": "ee27",
+      "fish_name": "Fish",
+      "tank_size_gallons": 0,
+      "average_length_inches": 0,
+      "aggressiveness": "Semi-aggressive",
+      "notes": "Fish",
+      "water_type": "Freshwater",
+      "image": "FIsh",
+      "favorite": false
     }
   ]
 }
