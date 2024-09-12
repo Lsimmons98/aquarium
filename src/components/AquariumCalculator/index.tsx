@@ -3,13 +3,14 @@ import FishDetails from "./FishDetails"
 import MyAquarium from "./MyAquarium"
 import TankForm from "../TankForm"
 import CompatibleFishes from "./CompatibleFishes"
+import { Fish } from "../../types"
 
 import "../../style.css"
 
 const AquariumCalculator = () => {
   const [fishes, setFishes] = useState([])
   const [aquariumSpecs, setAquariumSpecs] = useState({
-    gallons: "",
+    gallons: 0,
     waterType: "",
   })
 
@@ -23,27 +24,28 @@ const AquariumCalculator = () => {
 
   useEffect(fetchFishes, [])
 
-  const aquariumFishes = fishes.filter((fish) => fish.quantity > 0)
+  const aquariumFishes = fishes.filter((fish: Fish) => fish.quantity > 0)
 
   const filteredFishes = fishes.filter(
-    (fish) =>
+    (fish: Fish) =>
       fish.tank_size_gallons <= aquariumSpecs.gallons &&
       fish.water_type === aquariumSpecs.waterType
   )
 
   const tankRequirement = aquariumFishes.reduce(
-    (sum, fish) => sum + fish.average_length_inches * fish.quantity,
+    (sum: number, fish: Fish) =>
+      sum + fish.average_length_inches * fish.quantity,
     0
   )
 
   const clearAquariumFishes = () => {
-    fishes.map((fish) => {
+    fishes.map((fish: Fish) => {
       updateQuantity(fish.id, 0)
       return { ...fish, quantity: 0 }
     })
   }
 
-  const updateQuantity = (id, newQuantity) => {
+  const updateQuantity = (id: number, newQuantity: number) => {
     const options = {
       method: "PATCH",
       headers: {

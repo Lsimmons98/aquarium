@@ -1,4 +1,5 @@
 import React, { useState } from "react"
+import { useForm } from "react-hook-form"
 import { FishData } from "../types"
 import "../style.css"
 
@@ -8,49 +9,17 @@ const AddFish = ({
   onAddFish: (fishData: FishData) => void
 }) => {
   const [showForm, setShowForm] = useState(false)
-  const [fishData, setFishData] = useState({
-    fish_name: "",
-    tank_size_gallons: 0,
-    average_length_inches: 0,
-    aggressiveness: "",
-    notes: "",
-    water_type: "",
-    image: "",
-    favorite: false,
-  })
 
-  const handleChange = ({
-    target: { name, value },
-  }: React.ChangeEvent<
-    HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement
-  >) => {
-    setFishData({
-      ...fishData,
-      [name]: value,
-    })
-  }
+  const {
+    register,
+    handleSubmit,
+    reset,
+    formState: { errors },
+  } = useForm<FishData>({ mode: "onSubmit" })
 
-  // const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
-  //   const { name, value } = event.target
-  //   setFishData({
-  //     ...fishData,
-  //     [name]: value,
-  //   })
-  // }
-
-  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
-    e.preventDefault()
-    onAddFish(fishData)
-    setFishData({
-      fish_name: "",
-      tank_size_gallons: 0,
-      average_length_inches: 0,
-      aggressiveness: "",
-      notes: "",
-      water_type: "",
-      image: "",
-      favorite: false,
-    })
+  const onSubmit = (data: FishData) => {
+    onAddFish(data)
+    reset()
   }
 
   return (
@@ -65,29 +34,33 @@ const AddFish = ({
       )}
 
       {showForm && (
-        <form className="add-fish-form" onSubmit={handleSubmit}>
+        <form className="add-fish-form" onSubmit={handleSubmit(onSubmit)}>
           <h2>Add a Fish</h2>
           <div className="form-group">
             <label htmlFor="fish_name">Fish Name:</label>
+            <span className="error">
+              {errors.fish_name && <p>{errors.fish_name.message}</p>}
+            </span>
             <input
               type="text"
               id="fish_name"
-              name="fish_name"
-              value={fishData.fish_name}
-              onChange={handleChange}
-              required
+              {...register("fish_name", { required: "Name is required" })}
             />
           </div>
 
           <div className="form-group">
             <label htmlFor="tank_size_gallons">Tank Size (gallons):</label>
+            <span className="error">
+              {errors.tank_size_gallons && (
+                <p>{errors.tank_size_gallons.message}</p>
+              )}
+            </span>
             <input
               type="number"
               id="tank_size_gallons"
-              name="tank_size_gallons"
-              value={fishData.tank_size_gallons}
-              onChange={handleChange}
-              required
+              {...register("tank_size_gallons", {
+                required: "Please input a tank size",
+              })}
             />
           </div>
 
@@ -95,24 +68,31 @@ const AddFish = ({
             <label htmlFor="average_length_inches">
               Average Length (inches):
             </label>
+            <span className="error">
+              {errors.average_length_inches && (
+                <p>{errors.average_length_inches.message}</p>
+              )}
+            </span>
             <input
               type="number"
               id="average_length_inches"
-              name="average_length_inches"
-              value={fishData.average_length_inches}
-              onChange={handleChange}
-              required
+              {...register("average_length_inches", {
+                required: "Please input average fish length (inches)",
+              })}
             />
           </div>
 
           <div className="form-group">
             <label htmlFor="aggressiveness">Aggressiveness:</label>
+            <span className="error">
+              {errors.aggressiveness && <p>{errors.aggressiveness.message}</p>}
+            </span>
             <select
               id="aggressiveness"
-              name="aggressiveness"
-              value={fishData.aggressiveness}
-              onChange={handleChange}
-              required
+              {...register("aggressiveness", {
+                required:
+                  "Please select a temperament option from the dropdown menu",
+              })}
             >
               <option value="">Select Aggressiveness</option>
               <option value="Community">Community</option>
@@ -123,12 +103,14 @@ const AddFish = ({
 
           <div className="form-group">
             <label htmlFor="water_type">Water Type:</label>
+            <span className="error">
+              {errors.water_type && <p>{errors.water_type.message}</p>}
+            </span>
             <select
               id="water_type"
-              name="water_type"
-              value={fishData.water_type}
-              onChange={handleChange}
-              required
+              {...register("water_type", {
+                required: "Please select a water type from the dropdown menu",
+              })}
             >
               <option value="">Select Water Type</option>
               <option value="Freshwater">Freshwater</option>
@@ -138,24 +120,26 @@ const AddFish = ({
 
           <div className="form-group">
             <label htmlFor="notes">Notes:</label>
+            <span className="error">
+              {errors.notes && <p>{errors.notes.message}</p>}
+            </span>
             <textarea
               id="notes"
-              name="notes"
-              value={fishData.notes}
-              onChange={handleChange}
-              required
+              {...register("notes", {
+                required: "Please input relevant species notes",
+              })}
             ></textarea>
           </div>
 
           <div className="form-group">
             <label htmlFor="image">Image URL:</label>
+            <span className="error">
+              {errors.image && <p>{errors.image.message}</p>}
+            </span>
             <input
               type="text"
               id="image"
-              name="image"
-              value={fishData.image}
-              onChange={handleChange}
-              required
+              {...register("image", { required: "Please input image URL" })}
             />
           </div>
 
