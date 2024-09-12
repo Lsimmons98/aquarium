@@ -21,3 +21,8 @@ export interface FishData {
   image: string
   favorite: boolean
 }
+
+export interface TankSpecs {
+  gallons: number
+  waterType: string
+}

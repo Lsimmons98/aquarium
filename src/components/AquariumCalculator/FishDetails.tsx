@@ -1,7 +1,8 @@
 import React from "react"
 import "../../style.css"
+import { Fish } from "../../types"
 
-function FishDetails({ aquariumFishes }) {
+function FishDetails({ aquariumFishes }: { aquariumFishes: Fish[] }) {
   const displayFishDetails = () => {
     return aquariumFishes.map((fish) => (
       <li key={fish.id}>

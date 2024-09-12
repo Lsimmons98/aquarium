@@ -1,4 +1,3 @@
-import React from "react"
 import FishCard from "./FishCard"
 import "../style.css"
 import { Fish } from "../types"

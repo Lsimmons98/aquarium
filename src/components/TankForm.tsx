@@ -1,11 +1,6 @@
 import { useForm } from "react-hook-form"
 import "../style.css"
-
-// Define the type for tank specifications
-interface TankSpecs {
-  gallons: number
-  waterType: string
-}
+import { TankSpecs } from "../types"
 
 function TankForm({ onSubmit }: { onSubmit: (data: TankSpecs) => void }) {
   const {

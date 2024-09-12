@@ -1,5 +1,6 @@
 import React from "react"
 import "../../style.css"
+import { Fish, TankSpecs } from "../../types"
 
 function MyAquarium({
   aquariumFishes,
@@ -7,6 +8,12 @@ function MyAquarium({
   tankRequirement,
   aquariumSpecs,
   onClear,
+}: {
+  aquariumFishes: Fish[]
+  onClick: (id: number, newQuantity: number) => void
+  tankRequirement: number
+  aquariumSpecs: TankSpecs
+  onClear: () => void
 }) {
   const displayAquariumFishes = () => {
     return aquariumFishes.map((fish) => (

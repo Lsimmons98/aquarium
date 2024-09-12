@@ -2,10 +2,11 @@ import { useState, useEffect } from "react"
 import NavBar from "../components/NavBar"
 import FishList from "../components/FishList"
 import AddFishForm from "../components/AddFishForm"
+import { FishData, Fish } from "../types"
 import "../style.css"
 
 function Home() {
-  const [fishes, setFishes] = useState([])
+  const [fishes, setFishes] = useState<Fish[]>([])
   const fetchFishes = () => {
     fetch("http://localhost:3001/fishes")
       .then((resp) => resp.json())
@@ -16,7 +17,7 @@ function Home() {
 
   useEffect(fetchFishes, [])
 
-  const handleAddFish = (fish) => {
+  const handleAddFish = (fish: FishData) => {
     const options = {
       method: "POST",
       headers: {
@@ -27,7 +28,9 @@ function Home() {
     }
     fetch("http://localhost:3001/fishes", options)
       .then((resp) => resp.json())
-      .then(setFishes([...fishes, fish]))
+      .then((newFish: Fish) => {
+        setFishes([...fishes, newFish])
+      })
   }
 
   return (
@@ -36,7 +39,7 @@ function Home() {
       <main>
         <h1>Home</h1>
         <AddFishForm onAddFish={handleAddFish} />
-        <FishList fishes={fishes} />
+        <FishList fishes={fishes} fetchData={fetchFishes} />
       </main>
     </>
   )

@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react"
 import NavBar from "../components/NavBar"
 import FishList from "../components/FishList"
+import { Fish } from "../types"
 import "../style.css"
 
 function Favorites() {
@@ -19,7 +20,7 @@ function Favorites() {
 
   useEffect(fetchFishes, [])
 
-  const favoriteFishes = fishes.filter((fish) => fish.favorite === true)
+  const favoriteFishes = fishes.filter((fish: Fish) => fish.favorite === true)
 
   return (
     <>

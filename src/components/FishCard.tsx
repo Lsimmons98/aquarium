@@ -1,8 +1,15 @@
 import React, { useState } from "react"
 import PropTypes from "prop-types"
 import "../style.css"
+import { Fish } from "../types"
 
-const FishCard = ({ fish, fetchData }) => {
+const FishCard = ({
+  fish,
+  fetchData,
+}: {
+  fish: Fish
+  fetchData: () => void
+}) => {
   const [isExpanded, setIsExpanded] = useState(false)
   const [isFavorite, setIsFavorite] = useState(fish.favorite)
 

@@ -1,13 +1,19 @@
 import "../../style.css"
+import { Fish, TankSpecs } from "../../types"
 
 function CompatibleFishes({
   filteredFishes,
   onClick,
   tankRequirement,
   aquariumSpecs,
+}: {
+  filteredFishes: Fish[]
+  onClick: (id: number, newQuantity: number) => void
+  tankRequirement: number
+  aquariumSpecs: TankSpecs
 }) {
   const displayFilteredFishes = () => {
-    return filteredFishes.map((fish) => (
+    return filteredFishes.map((fish: Fish) => (
       <li key={fish.id}>
         {fish.fish_name}...{" "}
         <button
